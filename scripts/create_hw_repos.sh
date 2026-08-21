@@ -105,11 +105,26 @@ for user in "$@"; do
   fi
 
   # push = write access: enough to upload files through the web interface.
-  gh api -X PUT "repos/$repo/collaborators/$user" -f permission=push >/dev/null
-  echo "    invited $user with write access"
+  #
+  # The API answers 201 with an invitation object when it actually invites someone
+  # (that is what sends the email), and 204 with an empty body when the user
+  # already has access -- which is the case for organization owners, including
+  # yourself. Report which happened, so "no email arrived" is never a mystery.
+  result=$(gh api -X PUT "repos/$repo/collaborators/$user" -f permission=push 2>/dev/null || true)
+  if printf '%s' "$result" | grep -q '"invitee"'; then
+    echo "    invited $user (write) -- invitation email sent"
+  else
+    echo "    $user already has access (no invitation needed, no email sent)"
+  fi
 done
 
 echo
 echo "Done. Students receive an invitation email; the repository appears once they accept."
-echo "Do NOT give the econ630-fall2026 team access to these repositories -- that would"
-echo "make every submission readable by the whole class."
+echo
+echo "Two things to know:"
+echo "  * Do NOT give the econ630-fall2026 team access to these repositories -- that"
+echo "    would make every submission readable by the whole class."
+echo "  * Every owner of $ORG has admin on these repositories and can read every"
+echo "    submission. That is inherent to organization ownership and cannot be"
+echo "    switched off. Current owners:"
+gh api "orgs/$ORG/members?role=admin" --jq '.[].login' 2>/dev/null | sed 's/^/      /' || true

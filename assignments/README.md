@@ -84,9 +84,15 @@ the text that appears in each student's own repository.
 
 ## Privacy
 
-Your homework repository is private to you and me; classmates cannot see it. That
-is the whole reason submissions do not go through Issues or Discussions in the
-course repository — everything there is visible to the whole class.
+Your homework repository is private: classmates cannot see it, which is the whole
+reason submissions do not go through Issues or Discussions in the course
+repository, where everything is visible to the whole class.
+
+Besides you and me, the administrators of the `uh-manoa-uhero` organization can
+read it. Organization administrators have access to every repository the
+organization owns; this is not something an individual repository can opt out of,
+and it parallels the access institutional staff have to work submitted through a
+university system.
 
 ## If something goes wrong
 

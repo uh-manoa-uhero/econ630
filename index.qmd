@@ -293,8 +293,10 @@ single PDF. Writing by hand aids retention and confirms steady weekly
 engagement. The coding and applied exercises are self-checked against the
 provided solutions and are not collected.
 
-You submit to **your own private GitHub repository**, `econ630-f26-hw-<username>`,
-which only you and I can see. I create it and send you an invitation before the
+You submit to **your own private GitHub repository**, `econ630-f26-hw-<username>`.
+Your classmates cannot see it; besides you and me, it is readable by the
+administrators of the `uh-manoa-uhero` organization that hosts it, as coursework
+submitted through any university system would be. I create it and send you an invitation before the
 first deadline; accept it once and you are set for the semester. Upload the PDF
 through the GitHub website — **Add file → Upload files** — naming it `weekNN.pdf`.
 You never need Git or a terminal.
