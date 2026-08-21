@@ -420,11 +420,13 @@ click links, read pages, post in Discussions, and upload a PDF through a web for
 - [UH ITS Computer Help Desk](https://www.hawaii.edu/its/help-desk/) — email
   [help@hawaii.edu](mailto:help@hawaii.edu) or call (808) 956-8883 (toll-free
   1-800-558-2669 from the neighbor islands)
-- LMS Assistance Form — click on the
-  [Request Assistance](https://www.hawaii.edu/simp/laulima-feedback.php) page
-  to fill out and submit a question and get your answer via email
-- [Lamakū Student Resources](https://www.uhonline.hawaii.edu/discover-d2l-brightspace/students)
 - [Information Security for Students](https://www.hawaii.edu/infosec/)
+- [GitHub Docs](https://docs.github.com/) for the course repository and the
+  lecture-note sites; for anything specific to this course, email
+  `fuleky@hawaii.edu` or ask in *Q&A*
+
+This course does not use Lamakū or Laulima. Materials, announcements, and homework
+all go through GitHub — see *Course technology*.
 
 # Academic support
 

@@ -93,7 +93,11 @@ notes cover that material in full and the lab data is provided.
 ├── scripts/
 │   ├── create_hw_repos.sh          # One private repo per student, write access
 │   └── check_submissions.sh        # Who submitted week NN, and when
-├── .github/DISCUSSION_TEMPLATE/    # Forms for the Announcements and Q&A categories
+├── .github/
+│   ├── DISCUSSION_TEMPLATE/        # Forms for the Announcements and Q&A categories
+│   │                                 (GitHub finds these by path; filename must
+│   │                                  match the category slug)
+│   └── discussion-seeds/           # Paste-once text for the pinned sign-up thread
 └── README.md                       # This page
 ```
 
