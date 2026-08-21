@@ -1,7 +1,8 @@
 # Presentation sign-ups
 
 Each week's topic spans both sessions. The **Tuesday** session is a student-led
-lecture on the assigned chapter plus opening discussion; the **Thursday** session
+lecture of at least 30 minutes on the assigned chapter plus opening discussion;
+the **Thursday** session
 continues the discussion, works through the labs and exercises, and answers
 questions. Both slots are student-led.
 
@@ -68,7 +69,8 @@ slots**.
 
 ## What leading a session involves
 
-Prepare and deliver a short lecture on the topic, using the textbook chapter, the
+Prepare and deliver a lecture of **at least 30 minutes** on the topic, using the
+textbook chapter, the
 videos, and the [lecture notes](README.md#start-here) as source material, then
 guide the discussion that follows. You are not expected to cover everything — pick
 the ideas that matter most and the ones you found hardest, and be ready to field
@@ -121,7 +123,8 @@ is the authoritative schedule. I fill in the presenter columns there and push th
 update; I will not be editing this thread to track assignments. Check that file,
 not this thread, to confirm what you are leading and when.
 
-**What leading a session involves:** a short lecture on the topic — using the
+**What leading a session involves:** a lecture of **at least 30 minutes** on the
+topic — using the
 textbook chapter, the videos, and the lecture notes as source material — followed
 by discussion that you guide. You are not expected to cover everything; pick the
 ideas that matter most and the ones you found hardest. See *Assessment* in the

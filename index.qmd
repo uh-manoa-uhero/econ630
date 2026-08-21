@@ -93,8 +93,8 @@ By the end of the course students will be able to:
    discontinuity — and state when each is credible.
 6. Carry out all of the above in **R** with the `tidymodels` / `tidyverse`
    ecosystem and the standard econometrics packages.
-7. Prepare and deliver a short lecture on a technical topic and guide the
-   class discussion that follows — building teaching and presentation
+7. Prepare and deliver a lecture of at least 30 minutes on a technical topic and
+   guide the class discussion that follows — building teaching and presentation
    skills through the course's flipped-classroom format.
 
 # Format and pacing
@@ -104,8 +104,8 @@ classroom. Instruction runs **08/25 through 12/10**, with the final exam during
 the **12/14–12/18** examination period. This is a **flipped
 classroom**: you prepare before each session — reading, watching the video
 lecture, and reviewing the lecture notes for that day's topic — and one
-enrolled student leads the session by delivering a short lecture on the
-topic, analyzing labs/exercises and initiating class discussion. The
+enrolled student leads the session by delivering a lecture of **at least 30
+minutes** on the topic, analyzing labs/exercises and initiating class discussion. The
 instructor's role is to guide that discussion, not to carry a lecture. There are more class sessions over the
 semester than students enrolled, so everyone will sign up to lead multiple
 sessions; sign-ups will be arranged early in the term. Each week's assigned
@@ -208,7 +208,7 @@ week's session:
    solutions to the conceptual exercises, and submit it by **Sunday 8 pm** —
    ~2 hrs.
 7. **Present or discuss in class.** If you are leading a session this week,
-   turn steps 1–6 into a short lecture. Either way, come to both the
+   turn steps 1–6 into a lecture of at least 30 minutes. Either way, come to both the
    Tuesday and Thursday sessions ready to discuss the material.
 
 **Steps 1–6 happen before the week's first session.** The Sunday 8 pm deadline is
@@ -337,7 +337,7 @@ repository.
 **Presentation & participation (30%).** Each student signs up to lead
 multiple class sessions over the semester — there are more class sessions
 than students enrolled, so everyone leads more than one. When leading a
-session, prepare and deliver a short lecture on that day's topic (using the
+session, prepare and deliver a lecture of **at least 30 minutes** on that day's topic (using the
 reading, videos, and lecture notes as source material), then guide the
 discussion that follows; the instructor's role is to facilitate, not to
 lecture. Grading considers preparation, clarity of the lecture, and the
