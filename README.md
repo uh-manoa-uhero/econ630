@@ -119,9 +119,25 @@ require GitHub Enterprise Cloud. Access to the notes and to this repository is
 granted by adding students to the `econ630-fall2026` team, which has read access on
 all three repositories.
 
-Homework submission uses one private repository per student, created by
-`scripts/create_hw_repos.sh`. Those repositories must **not** be shared with the
-`econ630-fall2026` team, or every submission becomes readable by the whole class.
+Homework submission uses one private repository per student:
+
+```bash
+gh auth login                                          # once
+./scripts/create_hw_repos.sh --team econ630-fall2026   # roster from the team
+./scripts/check_submissions.sh 03 2026-09-06T20:00:00-10:00
+```
+
+`create_hw_repos.sh` reads the team's membership, so adding a student to the team
+and re-running it is all a late enrollment needs; existing repos are left alone.
+
+Two things that must hold, or submissions stop being private:
+
+- **Base permissions must be "No permission"** (Settings > Member privileges).
+  Team membership makes students organization members, and any higher base
+  permission lets every member read every repository in the org. The script checks
+  this and refuses to continue without confirmation.
+- **Never give the `econ630-fall2026` team access to a homework repository** — that
+  would make one student's work readable by the whole class.
 
 `git status` stays clean after a render because `docs/` is gitignored — that is
 expected, not a failed render.

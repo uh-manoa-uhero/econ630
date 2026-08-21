@@ -2,10 +2,12 @@
 # Create one private homework repository per student and give that student write
 # access to their own repository only.
 #
+#   ./scripts/create_hw_repos.sh --team econ630-fall2026   # roster from the team
 #   ./scripts/create_hw_repos.sh alice-hi bob-uh carol-mnoa
 #
 # Safe to re-run: existing repositories are left in place, and the README is
-# refreshed from assignments/hw-repo-README.md so wording fixes propagate.
+# refreshed from assignments/hw-repo-README.md so wording fixes propagate. Re-run
+# it after adding a student to the team and only the new repo is created.
 #
 # Why per-student repositories rather than a shared one: everything in the course
 # repository is visible to everyone with read access, so homework cannot live
@@ -25,9 +27,43 @@ if ! command -v gh >/dev/null 2>&1; then
 fi
 
 if [ "$#" -eq 0 ]; then
-  echo "usage: $0 <github-username> [<github-username> ...]" >&2
+  echo "usage: $0 --team <team-slug>" >&2
+  echo "       $0 <github-username> [<github-username> ...]" >&2
   exit 1
 fi
+
+# Resolve the roster: either the members of a team, or usernames given directly.
+if [ "$1" = "--team" ]; then
+  team=${2:-}
+  if [ -z "$team" ]; then
+    echo "error: --team needs a team slug, e.g. --team econ630-fall2026" >&2
+    exit 1
+  fi
+  members=$(gh api "orgs/$ORG/teams/$team/members" --paginate --jq '.[].login' 2>/dev/null || true)
+  if [ -z "$members" ]; then
+    echo "error: no members found in team '$team' (check the slug, and that you can read it)" >&2
+    exit 1
+  fi
+  # shellcheck disable=SC2086
+  set -- $members
+  echo ">>> roster from team '$team': $# student(s)"
+fi
+
+# Safety check: with base permissions above "none", every organization member can
+# read every repository in the org -- including each other's homework. Team
+# membership makes students organization members, so this matters here.
+base=$(gh api "orgs/$ORG" --jq '.default_repository_permission' 2>/dev/null || echo "")
+case "$base" in
+  none) ;;
+  "")   echo "!!! could not read the org's base permission -- verify it is 'No permission'" >&2 ;;
+  *)    echo "!!! WARNING: base permissions are '$base', not 'none'." >&2
+        echo "!!! Every organization member can therefore read every repository in $ORG," >&2
+        echo "!!! including other students' homework. Fix before adding students:" >&2
+        echo "!!!   Settings > Member privileges > Base permissions > No permission" >&2
+        printf '!!! Continue anyway? [y/N] ' >&2
+        read -r reply </dev/tty || reply=""
+        case "$reply" in [yY]*) ;; *) echo "aborted" >&2; exit 1;; esac ;;
+esac
 
 if [ ! -f "$TEMPLATE" ]; then
   echo "error: $TEMPLATE not found" >&2
