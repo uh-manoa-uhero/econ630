@@ -28,13 +28,13 @@ rhythm, the schedule, and how you are graded.
 | [assignments/](assignments/) | Weekly specs and how to submit |
 | [presentations.md](presentations.md) | Who leads which session |
 
-**Announcements** is where schedule changes, exam logistics, and each week's
-homework link are posted — [watch this repository](../../subscription) so they
-reach you by email. Ask course questions in **Q&A** rather than emailing, so the
-whole class sees the answer; answering a classmate counts toward participation.
+**Announcements** is where schedule changes, exam logistics, and corrections to
+the notes are posted — [watch this repository](../../subscription) so they reach
+you by email. Ask course questions in **Q&A** rather than emailing, so the whole
+class sees the answer; answering a classmate counts toward participation.
 
-Homework is submitted privately through Classroom 50 — never in Discussions,
-which the whole class can read. See [assignments/README.md](assignments/README.md).
+Homework is submitted privately through **Lamakū** — never in Discussions, which
+the whole class can read. See [assignments/README.md](assignments/README.md).
 
 ## You need a GitHub account
 
@@ -105,10 +105,14 @@ quarto render                                   # writes docs/ (gitignored)
 git add -A && git commit -m "..." && git push   # does NOT update the site
 ```
 
-GitHub Pages serves branch `gh-pages` from `/` (root) with visibility set to
-Private, which requires GitHub Enterprise Cloud. Access is granted by adding
-students to the `econ630-fall2026` team, which has read access here and on both
-notes repositories.
+GitHub Pages serves branch `gh-pages` from `/` (root). The syllabus site is
+published **publicly**, so anyone can read it; the two notes sites are private and
+require GitHub Enterprise Cloud. Access to the notes and to this repository is
+granted by adding students to the `econ630-fall2026` team, which has read access on
+all three repositories.
+
+Homework submission does not involve GitHub at all — it goes through Lamakū, where
+students are enrolled automatically.
 
 `git status` stays clean after a render because `docs/` is gitignored — that is
 expected, not a failed render.

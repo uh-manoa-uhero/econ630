@@ -42,38 +42,31 @@ write-up; there are **14 submissions**, Weeks 2–15.
 There is no deadline on 11/08 — Week 11's sessions are 11/05 and 11/10, so its
 write-up is due 11/01 and Week 12's is due 11/15.
 
-**No late work is accepted.** Every upload is timestamped by GitHub, so this is a
-matter of record rather than judgement: anything committed after 8 pm is marked
-late and earns no credit. I close each assignment after its deadline, which makes
-the repositories read-only. Submit an incomplete write-up rather than nothing —
+**No late work is accepted**, and the system enforces it: each folder's end date is
+the deadline, so it closes at 8 pm and no further upload is possible. There is no
+late window to negotiate. Submit an incomplete write-up rather than nothing —
 partial credit is real, a missing submission is a zero.
 
 ## How to submit
 
-Submission goes through **Classroom 50**. Each week you get a private repository
-that only you and I can see.
+Submission goes through **Lamakū**, the University's D2L Brightspace site. You are
+enrolled automatically with your UH credentials — there is nothing to set up and no
+GitHub account involved.
 
-The first time, you will accept an invitation link and be asked to identify
-yourself on the roster — pick your own name. After that:
+1. Sign in to Lamakū and open this course.
+2. Go to **Assignments** and open the folder for that week (e.g. `Week 03`).
+3. Click **Add a File** and upload your PDF, named `lastname-weekNN.pdf`
+   (e.g. `kealoha-week03.pdf`).
+4. Click **Submit**.
 
-1. Open the invitation link for that week (posted in **Announcements**).
-2. Accept it. A repository named `weekNN-<your-username>` is created for you.
-3. Open the repository and click **Add file → Upload files**.
-4. Drag in your PDF, named `lastname-weekNN.pdf` (e.g. `kealoha-week03.pdf`).
-5. Click **Commit changes**.
+You will get a confirmation email from Lamakū. If you do not, the submission did
+not go through — check before the deadline rather than after.
 
-That is the whole flow — you never need to install Git or use a terminal, and you
-do not need to know anything about how Git works. Uploading through the website is
-a complete submission.
+If you upload the wrong file, submit again before the deadline; I grade your most
+recent submission.
 
-If you upload the wrong file, upload the corrected one before the deadline; the
-most recent version at the deadline is what I grade.
-
-## Privacy
-
-Your submission repository is **private to you and me**. Classmates cannot see it.
-This is why homework does not go through Issues or Discussions in the course
-repository — everything there is visible to the whole class.
+Your score and my comments come back in the same folder, and the Lamakū gradebook
+keeps your running total.
 
 ## Weekly specs
 
@@ -83,12 +76,18 @@ videos, and exactly which conceptual exercises to write up:
 - [Week 1 — ISLR 1 + 2](week01.md)
 
 Later weeks are added as the semester progresses. [TEMPLATE.md](TEMPLATE.md) is
-the blank form they are built from, and
-[classroom-template-README.md](classroom-template-README.md) holds the text that
-every student submission repository starts with.
+the blank form they are built from.
+
+## Privacy
+
+Lamakū submissions are visible only to you and me. This is also why homework does
+not go through Issues or Discussions in this repository — everything there is
+visible to the whole class.
 
 ## If something goes wrong
 
-Ask in **Q&A** if it is about the material. For anything about access, a broken
-invitation link, or a failed upload, email <fuleky@hawaii.edu> — do not wait until
-Sunday evening to discover a problem with your repository.
+Ask in **Q&A** if it is about the material. For anything about access, a missing
+assignment folder, or a failed upload, email <fuleky@hawaii.edu> — do not wait
+until Sunday evening to discover a problem. For Lamakū itself, the
+[UH ITS Help Desk](https://www.hawaii.edu/its/help-desk/) can help faster than I
+can.
