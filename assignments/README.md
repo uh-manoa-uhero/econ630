@@ -59,7 +59,9 @@ videos, and exactly which conceptual exercises to write up:
 - [Week 1 — ISLR 1 + 2](week01.md)
 
 Later weeks are added as the semester progresses. [TEMPLATE.md](TEMPLATE.md) is
-the blank form they are built from.
+the blank form they are built from, and
+[classroom-template-README.md](classroom-template-README.md) holds the text that
+every student submission repository starts with.
 
 ## If something goes wrong
 
