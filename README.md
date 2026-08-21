@@ -6,8 +6,9 @@ Tue/Thu 9:00–10:15 am · 244 Saunders Hall · instruction 08/25–12/10, final
 Instructor: **Peter Fuleky** — <fuleky@hawaii.edu> — 508 Saunders Hall
 Office hours by appointment, in person or via Zoom.
 
-This repository is the hub for the course: the syllabus, assignments, and
-announcements all live here.
+This repository is the hub for the course: the syllabus, the weekly assignment
+specs, and announcements all live here. Your completed homework goes somewhere
+else — a private repository of your own, described below.
 
 ## Start here
 
@@ -33,8 +34,9 @@ the notes are posted — [watch this repository](../../subscription) so they rea
 you by email. Ask course questions in **Q&A** rather than emailing, so the whole
 class sees the answer; answering a classmate counts toward participation.
 
-Homework goes to **your own private repository** — never in Discussions, which the
-whole class can read. See [assignments/README.md](assignments/README.md).
+Homework goes to **your own private repository**, `econ630-f26-hw-<your-username>`,
+which I create and invite you to — never in Discussions, which the whole class can
+read. See [assignments/README.md](assignments/README.md).
 
 ## You need a GitHub account
 
@@ -58,8 +60,13 @@ Each week, before the Tuesday session:
 4. **Run** the lab code yourself (~2 hrs)
 5. **Self-check** the exercises against the provided solutions (~2 hrs)
 6. **Write up by hand** a summary plus the conceptual exercises, submitted by
-   **Sunday 8 pm** (~2 hrs)
+   **8 pm on the Sunday before those sessions** (~2 hrs)
 7. **Present or discuss** in class — both sessions
+
+Steps 1–6 come *before* the week's first session — that is what makes the flipped
+format work. Week 1's material is introduced in class, so it has no write-up: there
+are **14 submissions**, Weeks 2–15, and the first is due **Sun 08/30**. The full
+deadline table is in [assignments/README.md](assignments/README.md#deadlines).
 
 One enrolled student leads each session. There are more sessions than students,
 so everyone leads more than once; sign-ups are arranged early in the term.
@@ -98,7 +105,7 @@ notes cover that material in full and the lab data is provided.
 └── .github/DISCUSSION_TEMPLATE/    # Discussion category forms. GitHub locates these
                                       by path, and each filename must match its
                                       category slug (announcements, q-a).
-
+```
 
 ## For the instructor: publishing the syllabus
 
