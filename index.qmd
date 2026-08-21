@@ -181,11 +181,20 @@ week's session:
 5. **Self-check** the coding and applied exercises against the provided
    solutions - ~2 hrs.
 6. **Write up, by hand,** a short summary of the week's material and your
-   solutions to the conceptual exercises, and submit it by Sunday 8 pm
+   solutions to the conceptual exercises, and submit it by **Sunday 8 pm** —
    ~2 hrs.
 7. **Present or discuss in class.** If you are leading a session this week,
    turn steps 1–6 into a short lecture. Either way, come to both the
    Tuesday and Thursday sessions ready to discuss the material.
+
+**Steps 1–6 happen before the week's first session.** The Sunday 8 pm deadline is
+the Sunday *preceding* that week's Tuesday — so you arrive having already read,
+watched, run the code, and written up your understanding. That is what makes the
+flipped format work: class time is for discussion, not first exposure.
+
+Week 1 is the exception. Its material is introduced in class, so there is no
+submission for it; the first deadline is **Sun 08/30**, covering Week 2. That
+gives **14 graded submissions** over the semester.
 
 The hand-written submission (step 6) is collected; the labs and coding
 exercises in steps 4–5 are self-check practice, but are also analyzed and
@@ -268,14 +277,16 @@ machinery from ISLR Ch 3, not from scratch.
 
 | Component | When | Coverage | Weight |
 |---|---|---|---|
-| Weekly homework | Sundays, 8 pm | Hand-written, all 15 weeks | 10% |
+| Weekly homework | Sundays, 8 pm | Hand-written; Weeks 2–15 (14 submissions) | 10% |
 | Presentation & participation | Throughout | Leading assigned sessions; discussion engagement | 30% |
 | Midterm 1 | **Thu 10/01**, in class | ISLR Ch 1–7 | 20% |
 | Midterm 2 | **Thu 11/12**, in class | ISLR Ch 8–12 + Time Series Ch 14–15 | 20% |
 | Final Exam | **12/14–12/18**, slot TBA | Causal inference (*The Effect*) only | 20% |
 
 **Homework (10%).** A hand-written summary of the week's study material and your
-solutions to the conceptual exercises, submitted every week by Sunday 8 pm.
+solutions to the conceptual exercises, due by **8 pm on the Sunday before that
+week's sessions** — see *How each week works*. Weeks 2–15, so 14 submissions;
+Week 1's material is introduced in class and has no write-up.
 Write the work out by hand, then scan it (or photograph it) and submit it as a
 single PDF. Writing by hand aids retention and confirms steady weekly
 engagement. The coding and applied exercises are self-checked against the

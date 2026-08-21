@@ -15,14 +15,37 @@ The **coding and applied** exercises are *not* collected. Check those yourself
 against the solutions published with the lecture notes; they are analyzed and
 discussed in the Thursday sessions.
 
-## Deadline
+## Deadlines
 
-**Sunday 8:00 pm**, every week. No late work is accepted.
+Each week's write-up is due **8:00 pm on the Sunday *before* that week's
+sessions**. You prepare first and arrive ready to discuss — that is the point of
+the flipped format. Week 1's material is introduced in class, so it has no
+write-up; there are **14 submissions**, Weeks 2–15.
 
-This is enforced automatically: each assignment has a cutoff at the deadline,
-after which your repository becomes read-only. There is nothing to appeal to and
-no way for me to quietly accept a late file — so treat the deadline as real, and
-submit an incomplete write-up rather than nothing.
+| Due (Sun 8 pm) | For week | Material |
+|---|---|---|
+| 08/30 | 2 | ISLR 3 |
+| 09/06 | 3 | ISLR 4 |
+| 09/13 | 4 | ISLR 5 |
+| 09/20 | 5 | ISLR 6 |
+| 09/27 | 6 | ISLR 7 |
+| 10/04 | 7 | ISLR 8 |
+| 10/11 | 8 | ISLR 9 + 12 |
+| 10/18 | 9 | ISLR 10 |
+| 10/25 | 10 | Verbeek 14 |
+| 11/01 | 11 | Verbeek 15 |
+| 11/15 | 12 | Effect 5–8 + 10 |
+| 11/22 | 13 | Effect 13 + 14 |
+| 11/29 | 14 | Effect 16 + 17 + 18 |
+| 12/06 | 15 | Effect 19 + 20 |
+
+There is no deadline on 11/08 — Week 11's sessions are 11/05 and 11/10, so its
+write-up is due 11/01 and Week 12's is due 11/15.
+
+**No late work is accepted**, and this is enforced automatically: each assignment
+has a cutoff at its deadline, after which your repository becomes read-only. There
+is nothing to appeal to and no way for me to quietly accept a late file — so treat
+the deadline as real, and submit an incomplete write-up rather than nothing.
 
 ## How to submit
 

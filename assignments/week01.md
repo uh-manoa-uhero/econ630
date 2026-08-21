@@ -2,8 +2,13 @@
 
 Sessions: **Tue 08/25** (course intro, instructor-led) and **Thu 08/27**.
 
-**Due Sunday 08/30, 8:00 pm** · submit one hand-written PDF via GitHub Classroom
-(see [how to submit](README.md#how-to-submit))
+**No write-up is collected for Week 1.** This material is introduced in class, and
+the Sunday-before deadline would fall on 08/23, before the semester begins. The
+first submission is Week 2's, due **Sun 08/30 at 8 pm** — so read ISLR 3 and write
+that up during Week 1. See [the deadline table](README.md#deadlines).
+
+Still do everything below: it is what the Thursday session works through, and
+Midterm 1 covers it.
 
 Week 1 also starts the R onboarding. No prior R is assumed — the Ch 2 lab is
 deliberately gentle, and Weeks 1–3 ramp up together with a statistics review.
@@ -21,7 +26,7 @@ deliberately gentle, and Weeks 1–3 ramp up together with a statistics review.
 **Install R and Positron before the first session** if you have not already — see
 *Required hardware and software* in the syllabus. Bring the laptop to class.
 
-## Write up and submit (hand-written)
+## Do this during Week 1 (not collected)
 
 1. **Summary** — one to two pages on what statistical learning is and the
    bias–variance tradeoff. In your own words: why does test error fall and then
@@ -31,7 +36,8 @@ deliberately gentle, and Weeks 1–3 ramp up together with a statistics review.
 Exercise 3 asks you to sketch the bias, variance, training-error, test-error, and
 irreducible-error curves and explain their shapes. Draw it by hand and label the
 axes — this is the single most useful figure in the first half of the course, and
-you will refer back to it in Blocks II and III.
+you will refer back to it in Blocks II and III. Keep it; you will want it before
+Midterm 1.
 
 ## For the presenter
 

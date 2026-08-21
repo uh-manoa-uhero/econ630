@@ -1,9 +1,12 @@
 # Week NN — <SOURCE CH> — <TOPIC>
 
-**Due Sunday <DATE> 8:00 pm** · submit one hand-written PDF via GitHub Classroom
-(see [how to submit](README.md#how-to-submit))
+Sessions: **Tue <MM/DD>** · **Thu <MM/DD>**
 
-## Prepare before Tuesday
+**Due Sun <MM/DD>, 8:00 pm** — the Sunday *before* these sessions. One hand-written
+PDF via GitHub Classroom (see [how to submit](README.md#how-to-submit) and the
+[deadline table](README.md#deadlines)).
+
+## Prepare before the deadline
 
 | Step | What | Roughly |
 |---|---|---|
