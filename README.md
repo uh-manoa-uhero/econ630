@@ -101,7 +101,8 @@ notes cover that material in full and the lab data is provided.
 ├── scripts/
 │   ├── publish_site.sh             # Pushes docs/ to gh-pages as a single commit
 │   ├── create_hw_repos.sh          # One private repo per student, write access
-│   └── check_submissions.sh        # Who submitted week NN, and when
+│   ├── check_submissions.sh        # Who submitted week NN, and when
+│   └── feedback.sh                 # Post feedback to a student as an issue
 └── .github/DISCUSSION_TEMPLATE/    # Discussion category forms. GitHub locates these
                                       by path, and each filename must match its
                                       category slug (announcements, q-a).
@@ -131,6 +132,7 @@ Homework submission uses one private repository per student:
 gh auth login                                          # once
 ./scripts/create_hw_repos.sh --team econ630-fall2026   # roster from the team
 ./scripts/check_submissions.sh 03 2026-09-06T20:00:00-10:00
+./scripts/feedback.sh 03 alice-hi "Good summary; see the note on exercise 4."
 ```
 
 `create_hw_repos.sh` reads the team's membership, so adding a student to the team

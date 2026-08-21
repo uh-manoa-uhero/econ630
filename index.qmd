@@ -355,10 +355,11 @@ from the Registrar's final examination schedule and will be posted in
 
 ## Late work
 
-The weekly hand-written submission is due **Sunday 8 pm**, and the deadline is
-firm: it is what makes the weekly homework a reliable signal of steady engagement
-(see *How each week works*). Every upload is timestamped, so lateness is a matter
-of record. Submit an incomplete write-up rather than nothing.
+The weekly hand-written submission is due **Sunday 8 pm**. Late work may be
+accepted at my discretion — but the deadline is what makes the weekly homework a
+reliable signal of steady engagement (see *How each week works*), so treat it as
+real rather than as a suggestion. Every upload is timestamped. Submit an
+incomplete write-up rather than nothing.
 
 ## Withdrawal
 
