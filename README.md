@@ -115,9 +115,20 @@ touch the site:
 
 ```bash
 quarto render                                   # writes docs/ (gitignored)
-./scripts/publish_site.sh                       # force-pushes docs/ to gh-pages
-git add -A && git commit -m "..." && git push   # does NOT update the site
+./scripts/publish_site.sh                       # updates the site
+git add -A && git commit -m "..." && git push   # saves the sources
 ```
+
+`publish_site.sh` copies your local working-tree `docs/` — it never reads `main`.
+So pushing `main` does not update the site, and publishing does not require `main`
+to be pushed. Both are needed, for different reasons: publishing makes the site
+current, pushing makes your sources safe.
+
+**Getting announcements seen:** ask students to watch the repository
+(**Custom → Discussions**), and **@mention `@uh-manoa-uhero/econ630-fall2026`** on
+anything important. The mention notifies the team and subscribes them to the
+thread; it works because the team is visible rather than secret. Watching fails
+silently for anyone who never set it up, so the mention is the reliable half.
 
 GitHub Pages serves branch `gh-pages` from `/` (root). The syllabus site is
 published **publicly**, so anyone can read it; the two notes sites are private and

@@ -381,9 +381,11 @@ None.
 Course announcements and Q&A go through **GitHub Discussions** in the course
 repository (linked under *Course links*), using three categories:
 
-- **Announcements** — schedule changes, exam logistics, corrections to the
-  lecture notes, and assignment links. Instructor-posted; watch the repository so
-  these reach you by email.
+- **Announcements** — schedule changes, exam logistics, and corrections to the
+  lecture notes. Instructor-posted. **Watch the repository** — *Watch → Custom →
+  Discussions* — so these reach you by email. I also @mention the class team on
+  anything important, which notifies you whether or not you set watching up, but do
+  not rely on that alone.
 - **Q&A** — questions about chapters, labs, and exercises. Post here rather than
   emailing, so the whole class benefits from the answer. Answering a classmate
   counts toward your participation grade.

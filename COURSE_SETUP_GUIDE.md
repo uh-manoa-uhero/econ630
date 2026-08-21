@@ -284,6 +284,24 @@ Category forms live at `.github/DISCUSSION_TEMPLATE/<category-slug>.yml` and use
 branch, or the filename does not match the category slug. "Q&A" slugs to `q-a`.
 There is no error message either way.
 
+### Making sure announcements are actually seen
+
+Two mechanisms, with opposite failure modes — use both:
+
+- **Watching the repository** is a standing subscription. Discussions are covered
+  by the custom option: *"choose to only be notified when updates to one or more
+  types of events (issues, pull requests, releases, security alerts, or
+  discussions)"*. Tell students to set **Custom → Discussions**. Fails silently for
+  anyone who never sets it up, and you cannot check who did.
+- **@mentioning the team** — `@<ORG>/<team-slug>` — notifies its members for that
+  post and subscribes them to the thread, so they get replies too. Requires the
+  team to be **visible**: *"Visible teams can be viewed and @mentioned by every
+  organization member."* A team created with `privacy=closed` is visible; a
+  `secret` team is not mentionable this way. Fails only if you forget to do it.
+
+The mention is the one you control, so use it for anything that matters. Watching
+is the net for everything else.
+
 For a sign-up thread, do not use a form — a form creates a *new* discussion each
 time, and you want one pinned thread people comment on. Keep the authoritative
 schedule in a repository file and say so in the thread, or you will spend the term
@@ -477,11 +495,23 @@ for size.
 
 | When | What |
 |---|---|
-| Content changed | `quarto render && ./scripts/publish_site.sh` — pushing `main` does **not** update the site |
+| Content changed | `quarto render && ./scripts/publish_site.sh`, then commit and push `main` |
 | Late enrollment | Add to the team, re-run `create_hw_repos.sh --team <slug>` |
 | After a deadline | `./scripts/check_submissions.sh <week> <deadline>` |
 | Occasionally | `./scripts/feedback.sh <week> <user> "..."`, or comment in the web UI |
 | End of term | Empty or delete the team — revokes access to all repositories at once |
+
+### Publishing and pushing are independent — you need both
+
+`publish_site.sh` copies your **local working-tree `docs/`** and force-pushes it to
+`gh-pages`. It never reads `main`, locally or on the remote. So:
+
+- **Pushing `main` does not update the site.** Only `publish_site.sh` does.
+- **Publishing does not require `main` to be pushed.** The site can be current
+  while your sources exist only on your laptop.
+
+They serve different purposes and neither substitutes for the other: publishing
+makes the site current, pushing makes your sources safe. Do both.
 
 `git status` staying clean after a render is expected, not a failure: `docs/` is
 gitignored.
