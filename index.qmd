@@ -292,14 +292,16 @@ single PDF. Writing by hand aids retention and confirms steady weekly
 engagement. The coding and applied exercises are self-checked against the
 provided solutions and are not collected.
 
-Submission goes through **GitHub Classroom**: each week you accept an invitation
-link (posted in *Announcements*) and receive a repository that only you and the
+Submission goes through **Classroom 50**: each week you accept an invitation link
+(posted in *Announcements*) and receive a repository that only you and the
 instructor can see. Upload the PDF through the GitHub website — **Add file →
 Upload files** — and commit. You never need to install Git or use a terminal.
-Each assignment has a cutoff at the deadline, after which the repository becomes
-read-only, so the no-late-work policy is enforced automatically rather than at my
-discretion. Full instructions live in `assignments/README.md` in the course
-repository.
+
+Every upload is timestamped by GitHub, so the deadline is a matter of record
+rather than judgement: anything committed after 8 pm Sunday is marked **late** and
+receives no credit. I close each assignment after its deadline, which makes the
+repositories read-only. Full instructions live in `assignments/README.md` in the
+course repository.
 
 **Presentation & participation (30%).** Each student signs up to lead
 multiple class sessions over the semester — there are more class sessions
@@ -329,8 +331,8 @@ from the Registrar's final examination schedule and will be posted in
 No late homework is accepted. The weekly hand-written submission is due
 **Sunday 8 pm**; this firm deadline is what makes the weekly homework a
 reliable signal of steady engagement (see *How each week works*). The submission
-repository becomes read-only at the deadline, so submit an incomplete write-up
-rather than nothing.
+submission is timestamped, so a late upload is simply recorded as late and earns
+nothing — submit an incomplete write-up rather than nothing.
 
 ## Withdrawal
 
@@ -385,7 +387,7 @@ through the course repository `uh-manoa-uhero/econ630` and the two lecture-note
 websites linked under *Materials*. The following tools are used:
 
 - **GitHub** hosts the course repository, the lecture notes, announcements and
-  Q&A (Discussions), and homework submission (Classroom). A free account is
+  Q&A (Discussions), and homework submission (Classroom 50). A free account is
   required; no institutional email is needed
   ([Accessibility](https://accessibility.github.com/),
   [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)).
@@ -393,7 +395,7 @@ websites linked under *Materials*. The following tools are used:
   ([Accessibility Statement](https://zoom.us/accessibility), [Privacy Policy](https://zoom.us/privacy)).
 
 The hand-written weekly homework is scanned or photographed and uploaded as a
-single PDF to your private GitHub Classroom repository for that week; see
+single PDF to your private Classroom 50 repository for that week; see
 *Assessment* for the procedure.
 
 ## Required hardware and software

@@ -1,7 +1,7 @@
 # ECON 630 — Econometrics III (Fall 2026)
 
 **Prediction, Time Series, and Causal Inference** · 3 credits
-Tue/Thu 9:00–10:15 am · 244 Saunders Hall · 08/25–12/18
+Tue/Thu 9:00–10:15 am · 244 Saunders Hall · instruction 08/25–12/10, finals 12/14–18
 
 Instructor: **Peter Fuleky** — <fuleky@hawaii.edu> — 508 Saunders Hall
 Office hours by appointment, in person or via Zoom.
@@ -33,7 +33,7 @@ homework link are posted — [watch this repository](../../subscription) so they
 reach you by email. Ask course questions in **Q&A** rather than emailing, so the
 whole class sees the answer; answering a classmate counts toward participation.
 
-Homework is submitted privately through GitHub Classroom — never in Discussions,
+Homework is submitted privately through Classroom 50 — never in Discussions,
 which the whole class can read. See [assignments/README.md](assignments/README.md).
 
 ## You need a GitHub account

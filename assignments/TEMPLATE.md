@@ -3,7 +3,7 @@
 Sessions: **Tue <MM/DD>** · **Thu <MM/DD>**
 
 **Due Sun <MM/DD>, 8:00 pm** — the Sunday *before* these sessions. One hand-written
-PDF via GitHub Classroom (see [how to submit](README.md#how-to-submit) and the
+PDF via Classroom 50 (see [how to submit](README.md#how-to-submit) and the
 [deadline table](README.md#deadlines)).
 
 ## Prepare before the deadline

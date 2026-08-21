@@ -42,21 +42,22 @@ write-up; there are **14 submissions**, Weeks 2–15.
 There is no deadline on 11/08 — Week 11's sessions are 11/05 and 11/10, so its
 write-up is due 11/01 and Week 12's is due 11/15.
 
-**No late work is accepted**, and this is enforced automatically: each assignment
-has a cutoff at its deadline, after which your repository becomes read-only. There
-is nothing to appeal to and no way for me to quietly accept a late file — so treat
-the deadline as real, and submit an incomplete write-up rather than nothing.
+**No late work is accepted.** Every upload is timestamped by GitHub, so this is a
+matter of record rather than judgement: anything committed after 8 pm is marked
+late and earns no credit. I close each assignment after its deadline, which makes
+the repositories read-only. Submit an incomplete write-up rather than nothing —
+partial credit is real, a missing submission is a zero.
 
 ## How to submit
 
-Submission goes through **GitHub Classroom**. Each week you get a private
-repository that only you and I can see.
+Submission goes through **Classroom 50**. Each week you get a private repository
+that only you and I can see.
 
 The first time, you will accept an invitation link and be asked to identify
 yourself on the roster — pick your own name. After that:
 
 1. Open the invitation link for that week (posted in **Announcements**).
-2. Accept it. GitHub creates a repository named `weekNN-<your-username>`.
+2. Accept it. A repository named `weekNN-<your-username>` is created for you.
 3. Open the repository and click **Add file → Upload files**.
 4. Drag in your PDF, named `lastname-weekNN.pdf` (e.g. `kealoha-week03.pdf`).
 5. Click **Commit changes**.
@@ -66,7 +67,7 @@ do not need to know anything about how Git works. Uploading through the website 
 a complete submission.
 
 If you upload the wrong file, upload the corrected one before the deadline; the
-most recent version at the cutoff is what I grade.
+most recent version at the deadline is what I grade.
 
 ## Privacy
 
