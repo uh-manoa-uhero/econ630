@@ -21,8 +21,10 @@ week until everyone has at least one.
 
 Dates are from the [UH Mānoa Fall 2026 academic calendar](https://manoa.hawaii.edu/registrar/academic-calendar/fall-2026/).
 Instruction runs 08/25–12/10; **no class Tue 11/03 (Election Day) or Thu 11/26
-(Thanksgiving)**. Weeks 6, 11, and 13 therefore have one session, not two — so
-they have one slot to claim, not two.
+(Thanksgiving)**. Weeks 6 and 13 therefore have one session, not two — so they
+have one slot to claim, not two. Week 11 keeps both sessions, but they straddle a
+weekend: **Thu 11/05** is the lecture slot and **Tue 11/10** the discussion slot,
+the reverse of the usual order.
 
 ### Block I — Supervised learning → Midterm 1
 
@@ -43,9 +45,9 @@ they have one slot to claim, not two.
 | 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | |
 | 9 | ISLR 10 — deep learning | 10/20 | | 10/22 | |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | | 10/29 | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 | |
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/05 *(lecture)* | | 11/10 *(discussion)* | |
 
-*Midterm 2 — Tue 11/10. Thu 11/12 — buffer: exam return and catch-up.*
+*Midterm 2 — Thu 11/12.*
 
 ### Block III — Causal inference → Final
 
@@ -59,9 +61,9 @@ they have one slot to claim, not two.
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
 Registrar's final examination schedule.*
 
-**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/10) and
-the 11/12 buffer, leaves 27 teaching sessions. I take Week 1 Tuesday, so there are
-**26 student-led slots**.
+**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/12),
+leaves 28 teaching sessions. I take Week 1 Tuesday, so there are **27 student-led
+slots**.
 
 ## What leading a session involves
 

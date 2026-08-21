@@ -207,9 +207,10 @@ independent of who presents them.
 
 **No class on Tue 11/03 (Election Day) or Thu 11/26 (Thanksgiving)** — both are
 University non-instructional days. That leaves 30 meetings between the first
-session on 08/25 and the last on 12/10, so three weeks run as a single session:
-Weeks 6, 11, and 13. Weeks 11 and 13 are short because of the two holidays; Week 6
-is short to make room for Midterm 1.
+session on 08/25 and the last on 12/10, so two weeks run as a single session:
+Week 6, shortened to make room for Midterm 1, and Week 13, shortened by
+Thanksgiving. Week 11 keeps both of its sessions, but they straddle a weekend
+(Thu 11/05 and Tue 11/10) because Election Day removes its Tuesday.
 
 ## Block I — Supervised learning → Midterm 1
 
@@ -232,12 +233,14 @@ is short to make room for Midterm 1.
 | 8 | Tue 10/13 · Thu 10/15 | ISLR 9 + 12 | Support vector machines; unsupervised learning (PCA, *k*-means, hierarchical) | StatLearning Ch 9, 12 |
 | 9 | Tue 10/20 · Thu 10/22 | ISLR 10 | Deep learning: feed-forward nets, CNNs, RNNs | StatLearning Ch 10 |
 | 10 | Tue 10/27 · Thu 10/29 | Verbeek 14 | Univariate time series: ARMA, unit roots, forecasting | Lambert, FPP (ARIMA & forecasting) |
-| 11 | Thu 11/05 *(one session — no class Tue 11/03, Election Day)* | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
+| 11 | Thu 11/05 · Tue 11/10 *(no class Tue 11/03, Election Day)* | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
 
-: **Midterm 2 — Tue 11/10**, in class. Covers ISLR Ch 8–12 + Time Series Ch 14–15.
+: **Midterm 2 — Thu 11/12**, in class. Covers ISLR Ch 8–12 + Time Series Ch 14–15.
 
-**Thu 11/12** is a buffer session: exam return and discussion, plus any material
-the two short weeks left unfinished.
+Note the compressed run-up: Week 11's second session is **Tue 11/10**, two days
+before the exam. Multivariate time series is the densest material in the block, so
+do not leave it until the last week — the weekly rhythm exists precisely so that
+exam preparation is review rather than first contact.
 
 *Optional self-study (not on any exam):* ISLR 11 (Survival Analysis) and ISLR 13
 (Multiple Testing) remain in the notes for interested students.
