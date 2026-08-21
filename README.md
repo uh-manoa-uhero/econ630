@@ -80,26 +80,25 @@ notes cover that material in full and the lab data is provided.
 
 ```
 .
+├── README.md                       # This page — student landing
 ├── index.qmd                       # Syllabus source (Quarto)
-├── _quarto.yml                     # Renders to docs/
-├── publish_site.sh                 # Pushes docs/ to gh-pages as a single commit
-├── docs/                           # Rendered syllabus (untracked)
-├── presentations.md                # Session sign-up table
+├── _quarto.yml                     # Renders index.qmd only, into docs/
+├── LICENSE
+├── presentations.md                # Session schedule, sign-ups, thread seed text
+├── docs/                           # Rendered syllabus (untracked; published to gh-pages)
 ├── assignments/
-│   ├── README.md                   # What is collected, deadline, how to submit
+│   ├── README.md                   # What is collected, deadlines, how to submit
+│   ├── weekNN.md                   # Per-week reading, videos, exercises
 │   ├── TEMPLATE.md                 # Blank weekly spec
-│   └── weekNN.md                   # Per-week reading, videos, exercises
-│   └── hw-repo-README.md           # Text seeded into each student's repo
+│   └── hw-repo-README.md           # Text seeded into each student's homework repo
 ├── scripts/
+│   ├── publish_site.sh             # Pushes docs/ to gh-pages as a single commit
 │   ├── create_hw_repos.sh          # One private repo per student, write access
 │   └── check_submissions.sh        # Who submitted week NN, and when
-├── .github/
-│   ├── DISCUSSION_TEMPLATE/        # Forms for the Announcements and Q&A categories
-│   │                                 (GitHub finds these by path; filename must
-│   │                                  match the category slug)
-│   └── discussion-seeds/           # Paste-once text for the pinned sign-up thread
-└── README.md                       # This page
-```
+└── .github/DISCUSSION_TEMPLATE/    # Discussion category forms. GitHub locates these
+                                      by path, and each filename must match its
+                                      category slug (announcements, q-a).
+
 
 ## For the instructor: publishing the syllabus
 
@@ -109,7 +108,7 @@ touch the site:
 
 ```bash
 quarto render                                   # writes docs/ (gitignored)
-./publish_site.sh                               # force-pushes docs/ to gh-pages
+./scripts/publish_site.sh                       # force-pushes docs/ to gh-pages
 git add -A && git commit -m "..." && git push   # does NOT update the site
 ```
 

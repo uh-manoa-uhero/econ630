@@ -1,6 +1,12 @@
 project:
   type: default
-  # docs/ is the render target and is gitignored; ./publish_site.sh force-pushes
-  # it to the gh-pages branch, which GitHub Pages serves from / (root). The
-  # syllabus is index.qmd so the site root resolves to the syllabus itself.
+  # docs/ is the render target and is gitignored; ./scripts/publish_site.sh
+  # force-pushes it to the gh-pages branch, which GitHub Pages serves from /
+  # (root). The syllabus is index.qmd so the site root resolves to the syllabus.
   output-dir: docs
+
+  # Render ONLY the syllabus. Without this, a default project renders every .qmd
+  # and .md it finds -- assignments/*.md, presentations.md -- and publishes them
+  # as extra pages on the public site.
+  render:
+    - index.qmd

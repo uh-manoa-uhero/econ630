@@ -15,12 +15,12 @@
 #
 # Usage:
 #   quarto render          # produce docs/
-#   ./publish_site.sh      # push docs/ to gh-pages
+#   ./scripts/publish_site.sh   # push docs/ to gh-pages
 #
 # GitHub Pages must be configured to serve branch gh-pages from / (root).
 set -euo pipefail
 
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 
 BRANCH=gh-pages
 
@@ -35,6 +35,9 @@ TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT
 
 cp -R docs/. "$TMP/"
+
+# macOS sprinkles these through any browsed directory; do not publish them.
+find "$TMP" -name '.DS_Store' -delete
 
 # Stop GitHub running the output through Jekyll, which would drop files and
 # directories whose names begin with an underscore.

@@ -1,5 +1,5 @@
 # Rendered output. The syllabus site is published to the gh-pages branch by
-# ./publish_site.sh, so main carries sources only. `date: last-modified` restamps
+# ./scripts/publish_site.sh, so main carries sources only. `date: last-modified` restamps
 # the document on every render and the HTML is self-contained (~1.9 MB), so
 # committing docs/ would add a fresh copy to history each time.
 /docs/
