@@ -88,6 +88,7 @@ notes cover that material in full and the lab data is provided.
 ```
 .
 ├── README.md                       # This page — student landing
+├── COURSE_SETUP_GUIDE.md           # How this whole arrangement was built (reusable)
 ├── index.qmd                       # Syllabus source (Quarto)
 ├── _quarto.yml                     # Renders index.qmd only, into docs/
 ├── LICENSE
@@ -147,3 +148,7 @@ Two things that must hold, or submissions stop being private:
 
 `git status` stays clean after a render because `docs/` is gitignored — that is
 expected, not a failed render.
+
+For setting this up again — a different course, a different semester — see
+[COURSE_SETUP_GUIDE.md](COURSE_SETUP_GUIDE.md), which documents every step and the
+traps that cost time the first time.
