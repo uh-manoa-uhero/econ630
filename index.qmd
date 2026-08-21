@@ -266,13 +266,13 @@ machinery from ISLR Ch 3, not from scratch.
 
 # Assessment
 
-| Component | Coverage | Weight |
-|---|---|---|
-| Weekly homework | Hand-written, all 15 weeks | 10% |
-| Presentation & participation | Leading assigned sessions; discussion engagement | 30% |
-| Midterm 1 | ISLR Ch 1–7 | 20% |
-| Midterm 2 | ISLR Ch 8–12 + Time Series Ch 14–15 | 20% |
-| Final Exam | Causal inference (*The Effect*) only | 20% |
+| Component | When | Coverage | Weight |
+|---|---|---|---|
+| Weekly homework | Sundays, 8 pm | Hand-written, all 15 weeks | 10% |
+| Presentation & participation | Throughout | Leading assigned sessions; discussion engagement | 30% |
+| Midterm 1 | **Thu 10/01**, in class | ISLR Ch 1–7 | 20% |
+| Midterm 2 | **Thu 11/12**, in class | ISLR Ch 8–12 + Time Series Ch 14–15 | 20% |
+| Final Exam | **12/14–12/18**, slot TBA | Causal inference (*The Effect*) only | 20% |
 
 **Homework (10%).** A hand-written summary of the week's study material and your
 solutions to the conceptual exercises, submitted every week by Sunday 8 pm.
@@ -302,9 +302,14 @@ the grade reflects active participation in every other session — asking
 questions and engaging with the presenter's material.
 
 **Exams (20% each).** Each exam is **closed-book, closed-notes, and
-timed**, given during a regular class session in the classroom, proctored
-by the instructor. Exams combine conceptual short-answer items with applied
-"interpret-this-output" questions.
+timed**, held in the classroom and proctored by the instructor. Exams combine
+conceptual short-answer items with applied "interpret-this-output" questions.
+
+The two midterms are given during a regular class session — **Thu 10/01** and
+**Thu 11/12** — so they take the usual 75 minutes. The **Final** is scheduled in
+the University's examination period, **12/14–12/18**; the exact day and time come
+from the Registrar's final examination schedule and will be posted in
+*Announcements* once published. Do not book travel for that week until it is.
 
 # Course policies
 
