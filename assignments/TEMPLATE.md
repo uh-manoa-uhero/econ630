@@ -3,7 +3,7 @@
 Sessions: **Tue <MM/DD>** · **Thu <MM/DD>**
 
 **Due Sun <MM/DD>, 8:00 pm** — the Sunday *before* these sessions. One hand-written
-PDF to that week's Lamakū folder (see [how to submit](README.md#how-to-submit)
+PDF to your homework repository (see [how to submit](README.md#how-to-submit)
 and the
 [deadline table](README.md#deadlines)).
 

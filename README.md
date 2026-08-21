@@ -33,8 +33,8 @@ the notes are posted — [watch this repository](../../subscription) so they rea
 you by email. Ask course questions in **Q&A** rather than emailing, so the whole
 class sees the answer; answering a classmate counts toward participation.
 
-Homework is submitted privately through **Lamakū** — never in Discussions, which
-the whole class can read. See [assignments/README.md](assignments/README.md).
+Homework goes to **your own private repository** — never in Discussions, which the
+whole class can read. See [assignments/README.md](assignments/README.md).
 
 ## You need a GitHub account
 
@@ -89,6 +89,10 @@ notes cover that material in full and the lab data is provided.
 │   ├── README.md                   # What is collected, deadline, how to submit
 │   ├── TEMPLATE.md                 # Blank weekly spec
 │   └── weekNN.md                   # Per-week reading, videos, exercises
+│   └── hw-repo-README.md           # Text seeded into each student's repo
+├── scripts/
+│   ├── create_hw_repos.sh          # One private repo per student, write access
+│   └── check_submissions.sh        # Who submitted week NN, and when
 ├── .github/DISCUSSION_TEMPLATE/    # Forms for the Announcements and Q&A categories
 └── README.md                       # This page
 ```
@@ -111,8 +115,9 @@ require GitHub Enterprise Cloud. Access to the notes and to this repository is
 granted by adding students to the `econ630-fall2026` team, which has read access on
 all three repositories.
 
-Homework submission does not involve GitHub at all — it goes through Lamakū, where
-students are enrolled automatically.
+Homework submission uses one private repository per student, created by
+`scripts/create_hw_repos.sh`. Those repositories must **not** be shared with the
+`econ630-fall2026` team, or every submission becomes readable by the whole class.
 
 `git status` stays clean after a render because `docs/` is gitignored — that is
 expected, not a failed render.

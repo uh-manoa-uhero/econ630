@@ -144,8 +144,8 @@ access; the sites then open normally. If you are not signed in, or your account
 has not been added yet, you will be redirected to a GitHub login page instead of
 the notes. Create a free account before the first session and send me your
 username — no institutional email is required. You will need the same account to
-post in Discussions (see *Communications*). Homework goes through Lamakū with your
-UH credentials, so it needs no GitHub account.
+post in Discussions (see *Communications*) and to submit homework (see
+*Assessment*).
 :::
 
 ## Companion video lectures (free)
@@ -293,15 +293,15 @@ single PDF. Writing by hand aids retention and confirms steady weekly
 engagement. The coding and applied exercises are self-checked against the
 provided solutions and are not collected.
 
-Submission goes through the **Lamakū** assignment folder for that week: open the
-week's folder, upload your PDF, and submit. Each submission is visible only to you
-and the instructor, and it appears in the Lamakū gradebook alongside your score
-and my comments.
+You submit to **your own private GitHub repository**, `econ630-f26-hw-<username>`,
+which only you and I can see. I create it and send you an invitation before the
+first deadline; accept it once and you are set for the semester. Upload the PDF
+through the GitHub website — **Add file → Upload files** — naming it `weekNN.pdf`.
+You never need Git or a terminal.
 
-Each folder's **end date is the deadline**, so it closes at 8 pm and no further
-upload is possible. The no-late-work policy is therefore enforced by the system
-rather than at my discretion — there is no late window to negotiate. Full
-instructions live in `assignments/README.md` in the course repository.
+GitHub records the moment of every upload, and that record is what I grade against:
+a file committed after 8 pm is late and earns no credit. Full instructions live in
+`assignments/README.md` in the course repository.
 
 **Presentation & participation (30%).** Each student signs up to lead
 multiple class sessions over the semester — there are more class sessions
@@ -330,9 +330,10 @@ from the Registrar's final examination schedule and will be posted in
 
 No late homework is accepted. The weekly hand-written submission is due
 **Sunday 8 pm**; this firm deadline is what makes the weekly homework a
-reliable signal of steady engagement (see *How each week works*). The Lamakū
-folder closes at the deadline, so submit an incomplete write-up rather than
-nothing — partial credit is real, a missing submission is a zero.
+reliable signal of steady engagement (see *How each week works*). Every upload is
+timestamped, so lateness is a matter of record rather than negotiation — submit an
+incomplete write-up rather than nothing; partial credit is real, a missing
+submission is a zero.
 
 ## Withdrawal
 
@@ -386,19 +387,16 @@ Course materials (lecture notes, labs, assignments, schedule) are distributed
 through the course repository `uh-manoa-uhero/econ630` and the two lecture-note
 websites linked under *Materials*. The following tools are used:
 
-- **GitHub** hosts the course repository, the lecture notes, and announcements and
-  Q&A (Discussions). A free account is required; no institutional email is needed
+- **GitHub** hosts the course repository, the lecture notes, announcements and Q&A
+  (Discussions), and homework submission. A free account is required; no
+  institutional email is needed
   ([Accessibility](https://accessibility.github.com/),
   [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)).
-- **Lamakū** (the University's D2L Brightspace instance) is used for homework
-  submission and for grades. You are enrolled automatically with your UH
-  credentials — nothing to set up
-  ([Student resources](https://www.uhonline.hawaii.edu/discover-d2l-brightspace/students)).
 - **Zoom** is used for office hours held remotely
   ([Accessibility Statement](https://zoom.us/accessibility), [Privacy Policy](https://zoom.us/privacy)).
 
 The hand-written weekly homework is scanned or photographed and uploaded as a
-single PDF to that week's Lamakū assignment folder; see *Assessment* for the
+single PDF to your private homework repository; see *Assessment* for the
 procedure.
 
 ## Required hardware and software
