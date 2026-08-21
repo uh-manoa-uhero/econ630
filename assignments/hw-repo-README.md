@@ -41,12 +41,9 @@ course repository:
   — reading, videos, and which conceptual exercises to write up
 
 In short: due **8 pm on the Sunday before** that week's sessions, hand-written,
-one PDF. GitHub timestamps every upload and that record is what I grade against.
+one PDF. GitHub timestamps every upload.
 
-## Feedback and problems
-
-I comment by opening an issue here or replying on the commit; either way you get an
-email.
+## If something goes wrong
 
 If something is wrong with *this repository* — a failed upload, an access error —
 email <fuleky@hawaii.edu> early. For questions about the *material*, use

@@ -31,6 +31,29 @@ editor: source
 [Download this syllabus as a PDF](SYLLABUS_ECON630.pdf)
 :::
 
+# Course links
+
+Everything for this course lives in one place. Start here and you will not need to
+hunt for anything.
+
+| | |
+|---|---|
+| **Course repository** | [uh-manoa-uhero/econ630](https://github.com/uh-manoa-uhero/econ630) — the hub |
+| **Prediction & time series notes** | [ISLR Ch 1–13, Verbeek 14–15](https://special-adventure-gw99jmk.pages.github.io/) |
+| **Causal inference notes** | [*The Effect*](https://fantastic-adventure-v611vgo.pages.github.io/) |
+| **Weekly assignments** | [reading, videos, exercises, deadline table](https://github.com/uh-manoa-uhero/econ630/tree/main/assignments) |
+| **Presentation sign-ups** | [schedule and slots](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md) |
+| **Announcements** | [schedule changes, exam logistics](https://github.com/uh-manoa-uhero/econ630/discussions/categories/announcements) |
+| **Q&A** | [ask about the material](https://github.com/uh-manoa-uhero/econ630/discussions/categories/q-a) |
+| **Your homework repository** | `econ630-f26-hw-<your-username>` — I create it and invite you |
+
+The two notes sites and the course repository are private to this class, so
+**sign in to GitHub first**; see the note under *Materials*. This syllabus is the
+only public page.
+
+**[Watch the course repository](https://github.com/uh-manoa-uhero/econ630/subscription)**
+so announcements reach you by email.
+
 # Instructor information
 
 | | |
@@ -303,9 +326,9 @@ Your classmates cannot see it. Besides you and me, the administrators of the
 `uh-manoa-uhero` organization can read it. Organization administrators have access
 to every repository the organization owns.
 
-GitHub records the moment of every upload, and that record is what I grade against:
-a file committed after 8 pm is late and earns no credit. Full instructions live in
-`assignments/README.md` in the course repository.
+GitHub records the moment of every upload, and that record is what I grade
+against. Full instructions live in `assignments/README.md` in the course
+repository.
 
 **Presentation & participation (30%).** Each student signs up to lead
 multiple class sessions over the semester — there are more class sessions
@@ -332,12 +355,10 @@ from the Registrar's final examination schedule and will be posted in
 
 ## Late work
 
-No late homework is accepted. The weekly hand-written submission is due
-**Sunday 8 pm**; this firm deadline is what makes the weekly homework a
-reliable signal of steady engagement (see *How each week works*). Every upload is
-timestamped, so lateness is a matter of record rather than negotiation — submit an
-incomplete write-up rather than nothing; partial credit is real, a missing
-submission is a zero.
+The weekly hand-written submission is due **Sunday 8 pm**, and the deadline is
+firm: it is what makes the weekly homework a reliable signal of steady engagement
+(see *How each week works*). Every upload is timestamped, so lateness is a matter
+of record. Submit an incomplete write-up rather than nothing.
 
 ## Withdrawal
 
@@ -353,7 +374,7 @@ None.
 ## Communications
 
 Course announcements and Q&A go through **GitHub Discussions** in the course
-repository, `uh-manoa-uhero/econ630`, using three categories:
+repository (linked under *Course links*), using three categories:
 
 - **Announcements** — schedule changes, exam logistics, corrections to the
   lecture notes, and assignment links. Instructor-posted; watch the repository so

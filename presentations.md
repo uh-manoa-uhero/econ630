@@ -10,7 +10,8 @@ There are more sessions than students enrolled, so everyone leads more than once
 ## How to sign up
 
 1. Go to the pinned **Presentation sign-ups** discussion.
-2. Reply with the week numbers and slots you want, in order of preference.
+2. Add a comment on that discussion — the **Write** box at the bottom of the
+   page — listing the week numbers and slots you want, in order of preference.
 3. I fill in the table below and push the update. **The table in this file is
    authoritative** — the discussion thread is just where claims are made.
 
@@ -90,9 +91,10 @@ Title: `Fall 2026 session sign-ups`
 ````markdown
 Welcome to ECON 630. This thread is where you claim the sessions you will lead.
 
-**How to sign up:** reply to this thread with your preferred weeks and slots, in
-order of preference — three or four choices, so I can resolve collisions without
-another round. Format your reply like this:
+**How to sign up:** add a comment below — the **Write** box at the bottom of this
+page — listing your preferred weeks and slots in order of preference. Three or
+four choices, so I can resolve collisions without another round. Format it like
+this:
 
 ```
 1. Week 5, Tue

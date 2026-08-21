@@ -42,11 +42,13 @@ write-up; there are **14 submissions**, Weeks 2–15.
 There is no deadline on 11/08 — Week 11's sessions are 11/05 and 11/10, so its
 write-up is due 11/01 and Week 12's is due 11/15.
 
-**No late work is accepted.** GitHub records the moment of every upload, and that
-record is what I grade against: a file committed after 8 pm is late and earns no
-credit. Your repository stays open, so nothing physically stops a late upload — it
-simply will not count. Submit an incomplete write-up rather than nothing; partial
-credit is real, a missing submission is a zero.
+**Deadlines are firm.** GitHub records the moment of every upload, and that record
+is what I grade against. Your repository stays open, so nothing physically stops a
+late upload, but do not count on one being accepted.
+
+Submit an incomplete write-up rather than nothing — the point of the weekly
+write-up is to show you engaged with the material that week, and something always
+beats silence.
 
 ## How to submit
 
@@ -67,9 +69,6 @@ a complete submission.
 
 If you upload the wrong file, upload a corrected one before the deadline. I grade
 the most recent version in place at the deadline.
-
-I give feedback by opening an issue in your repository or replying on the commit;
-either way you get an email.
 
 ## Weekly specs
 
