@@ -90,9 +90,7 @@ repository, where everything is visible to the whole class.
 
 Besides you and me, the administrators of the `uh-manoa-uhero` organization can
 read it. Organization administrators have access to every repository the
-organization owns; this is not something an individual repository can opt out of,
-and it parallels the access institutional staff have to work submitted through a
-university system.
+organization owns.
 
 ## If something goes wrong
 

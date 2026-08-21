@@ -124,7 +124,6 @@ echo
 echo "Two things to know:"
 echo "  * Do NOT give the econ630-fall2026 team access to these repositories -- that"
 echo "    would make every submission readable by the whole class."
-echo "  * Every owner of $ORG has admin on these repositories and can read every"
-echo "    submission. That is inherent to organization ownership and cannot be"
-echo "    switched off. Current owners:"
+echo "  * Every owner of $ORG can read every submission -- organization owners have"
+echo "    admin on every repository the organization owns. Current owners:"
 gh api "orgs/$ORG/members?role=admin" --jq '.[].login' 2>/dev/null | sed 's/^/      /' || true

@@ -13,13 +13,11 @@ what a student needs *at the moment of uploading*, and link out for the rest.
 
 # ECON 630 — your homework repository
 
-This repository is **yours and private**: your classmates cannot see it, and
-neither can anyone outside the University.
+This repository is **yours and private** — your classmates cannot see it.
 
-Who can: you, the instructor, and the administrators of the
-`uh-manoa-uhero` organization that hosts it. Organization administrators have
-access to every repository the organization owns — the same way institutional
-staff can reach coursework submitted through a university system.
+Besides you and me, the administrators of the `uh-manoa-uhero` organization can
+read it. Organization administrators have access to every repository the
+organization owns.
 
 ## Uploading a submission
 

@@ -294,12 +294,14 @@ engagement. The coding and applied exercises are self-checked against the
 provided solutions and are not collected.
 
 You submit to **your own private GitHub repository**, `econ630-f26-hw-<username>`.
-Your classmates cannot see it; besides you and me, it is readable by the
-administrators of the `uh-manoa-uhero` organization that hosts it, as coursework
-submitted through any university system would be. I create it and send you an invitation before the
-first deadline; accept it once and you are set for the semester. Upload the PDF
-through the GitHub website — **Add file → Upload files** — naming it `weekNN.pdf`.
-You never need Git or a terminal.
+I create it and send you an invitation before the first deadline; accept it once
+and you are set for the semester. Upload the PDF through the GitHub website —
+**Add file → Upload files** — naming it `weekNN.pdf`. You never need Git or a
+terminal.
+
+Your classmates cannot see it. Besides you and me, the administrators of the
+`uh-manoa-uhero` organization can read it. Organization administrators have access
+to every repository the organization owns.
 
 GitHub records the moment of every upload, and that record is what I grade against:
 a file committed after 8 pm is late and earns no credit. Full instructions live in
