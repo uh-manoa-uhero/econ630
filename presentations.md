@@ -19,38 +19,49 @@ week until everyone has at least one.
 
 ## Schedule
 
-Dates follow the [UH Mānoa academic calendar](https://manoa.hawaii.edu/registrar/academic-calendar/)
-for Fall 2026; fill them in alongside the presenter once sign-ups settle.
+Dates are from the [UH Mānoa Fall 2026 academic calendar](https://manoa.hawaii.edu/registrar/academic-calendar/fall-2026/).
+Instruction runs 08/25–12/10; **no class Tue 11/03 (Election Day) or Thu 11/26
+(Thanksgiving)**. Weeks 6, 11, and 13 therefore have one session, not two — so
+they have one slot to claim, not two.
 
 ### Block I — Supervised learning → Midterm 1
 
-| Week | Topic | Tue presenter | Thu presenter |
-|---|---|---|---|
-| 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | *instructor* | |
-| 2 | ISLR 3 — linear regression | | |
-| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | | |
-| 4 | ISLR 5 — resampling: cross-validation & the bootstrap | | |
-| 5 | ISLR 6 — model selection & regularization | | |
-| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | | |
+| Week | Topic | Tue | presenter | Thu | presenter |
+|---|---|---|---|---|---|
+| 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | 08/25 | *instructor* | 08/27 | |
+| 2 | ISLR 3 — linear regression | 09/01 | | 09/03 | |
+| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | | 09/10 | |
+| 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | | 09/17 | |
+| 5 | ISLR 6 — model selection & regularization | 09/22 | | 09/24 | |
+| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | | — | *Midterm 1, Thu 10/01* |
 
 ### Block II — Advanced ML & time series → Midterm 2
 
-| Week | Topic | Tue presenter | Thu presenter |
-|---|---|---|---|
-| 7 | ISLR 8 — trees, random forests, boosting, BART | | |
-| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | | |
-| 9 | ISLR 10 — deep learning | | |
-| 10 | Verbeek 14 — univariate time series: ARMA, unit roots | | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | | |
+| Week | Topic | Tue | presenter | Thu | presenter |
+|---|---|---|---|---|---|
+| 7 | ISLR 8 — trees, random forests, boosting, BART | 10/06 | | 10/08 | |
+| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | |
+| 9 | ISLR 10 — deep learning | 10/20 | | 10/22 | |
+| 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | | 10/29 | |
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 | |
+
+*Midterm 2 — Tue 11/10. Thu 11/12 — buffer: exam return and catch-up.*
 
 ### Block III — Causal inference → Final
 
-| Week | Topic | Tue presenter | Thu presenter |
-|---|---|---|---|
-| 12 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | | |
-| 13 | Effect 13 + 14 — regression as causal adjustment; matching | | |
-| 14 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | | |
-| 15 | Effect 19 + 20 — instrumental variables; regression discontinuity | | |
+| Week | Topic | Tue | presenter | Thu | presenter |
+|---|---|---|---|---|---|
+| 12 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | | 11/19 | |
+| 13 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | | *no class 11/26* | |
+| 14 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | | 12/03 | |
+| 15 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | | 12/10 | |
+
+*Final Exam — during the 12/14–12/18 examination period; slot TBA from the
+Registrar's final examination schedule.*
+
+**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/10) and
+the 11/12 buffer, leaves 27 teaching sessions. I take Week 1 Tuesday, so there are
+**26 student-led slots**.
 
 ## What leading a session involves
 

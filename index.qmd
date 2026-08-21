@@ -77,7 +77,8 @@ By the end of the course students will be able to:
 # Format and pacing
 
 In-person, meeting **Tuesdays and Thursdays, 9:00–10:15 am**, in the
-classroom, from **08/25 through 12/18, Fall 2026**. This is a **flipped
+classroom. Instruction runs **08/25 through 12/10**, with the final exam during
+the **12/14–12/18** examination period. This is a **flipped
 classroom**: you prepare before each session — reading, watching the video
 lecture, and reviewing the lecture notes for that day's topic — and one
 enrolled student leads the session by delivering a short lecture on the
@@ -137,12 +138,13 @@ text also downloadable as a PDF or EPUB from the site's *Downloads* section.
 ::: {.callout-important}
 ## You need a GitHub account to read the notes
 
-Both sites are private to this class. Sign in to [GitHub](https://github.com/)
+Both notes sites are private to this class. Sign in to [GitHub](https://github.com/)
 with the account you give me at the start of the semester, and I will grant you
 access; the sites then open normally. If you are not signed in, or your account
 has not been added yet, you will be redirected to a GitHub login page instead of
 the notes. Create a free account before the first session and send me your
-username — no institutional email is required.
+username — no institutional email is required. You will need the same account to
+post in Discussions and to submit homework (see *Communications* and *Assessment*).
 :::
 
 ## Companion video lectures (free)
@@ -203,44 +205,55 @@ independent of who presents them.
 - **Block II** → Midterm 2
 - **Block III** → Final (causal material only)
 
+**No class on Tue 11/03 (Election Day) or Thu 11/26 (Thanksgiving)** — both are
+University non-instructional days. That leaves 30 meetings between the first
+session on 08/25 and the last on 12/10, so three weeks run as a single session:
+Weeks 6, 11, and 13. Weeks 11 and 13 are short because of the two holidays; Week 6
+is short to make room for Midterm 1.
+
 ## Block I — Supervised learning → Midterm 1
 
-| Week | Notes | Topic | Video |
-|---|---|---|---|
-| 1 | ISLR 1 + 2 | Course intro; statistical learning, bias–variance, KNN; R onboarding starts | StatLearning Ch 1–2 |
-| 2 | ISLR 3 | Linear regression (revisited in Block III) | StatLearning Ch 3 |
-| 3 | ISLR 4 | Classification: logistic, LDA/QDA, naive Bayes | StatLearning Ch 4 |
-| 4 | ISLR 5 | Resampling: cross-validation & the bootstrap (simulation revisited in Block III) | StatLearning Ch 5 |
-| 5 | ISLR 6 | Model selection & regularization: subset selection, ridge, lasso | StatLearning Ch 6 |
-| 6 | ISLR 7 | Moving beyond linearity: polynomials, splines, GAMs | StatLearning Ch 7 |
+| Week | Dates | Notes | Topic | Video |
+|---|---|---|---|---|
+| 1 | Tue 08/25 · Thu 08/27 | ISLR 1 + 2 | Course intro; statistical learning, bias–variance, KNN; R onboarding starts | StatLearning Ch 1–2 |
+| 2 | Tue 09/01 · Thu 09/03 | ISLR 3 | Linear regression (revisited in Block III) | StatLearning Ch 3 |
+| 3 | Tue 09/08 · Thu 09/10 | ISLR 4 | Classification: logistic, LDA/QDA, naive Bayes | StatLearning Ch 4 |
+| 4 | Tue 09/15 · Thu 09/17 | ISLR 5 | Resampling: cross-validation & the bootstrap (simulation revisited in Block III) | StatLearning Ch 5 |
+| 5 | Tue 09/22 · Thu 09/24 | ISLR 6 | Model selection & regularization: subset selection, ridge, lasso | StatLearning Ch 6 |
+| 6 | Tue 09/29 *(one session)* | ISLR 7 | Moving beyond linearity: polynomials, splines, GAMs | StatLearning Ch 7 |
 
-: **Midterm 1** covers ISLR Ch 1–7.
+: **Midterm 1 — Thu 10/01**, in class. Covers ISLR Ch 1–7.
 
 ## Block II — Advanced ML & time series → Midterm 2
 
-| Week | Notes | Topic | Video |
-|---|---|---|---|
-| 7 | ISLR 8 | Tree-based methods: trees, random forests, boosting, BART | StatLearning Ch 8 |
-| 8 | ISLR 9 + 12 | Support vector machines; unsupervised learning (PCA, *k*-means, hierarchical) | StatLearning Ch 9, 12 |
-| 9 | ISLR 10 | Deep learning: feed-forward nets, CNNs, RNNs | StatLearning Ch 10 |
-| 10 | Verbeek 14 | Univariate time series: ARMA, unit roots, forecasting | Lambert, FPP (ARIMA & forecasting) |
-| 11 | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
+| Week | Dates | Notes | Topic | Video |
+|---|---|---|---|---|
+| 7 | Tue 10/06 · Thu 10/08 | ISLR 8 | Tree-based methods: trees, random forests, boosting, BART | StatLearning Ch 8 |
+| 8 | Tue 10/13 · Thu 10/15 | ISLR 9 + 12 | Support vector machines; unsupervised learning (PCA, *k*-means, hierarchical) | StatLearning Ch 9, 12 |
+| 9 | Tue 10/20 · Thu 10/22 | ISLR 10 | Deep learning: feed-forward nets, CNNs, RNNs | StatLearning Ch 10 |
+| 10 | Tue 10/27 · Thu 10/29 | Verbeek 14 | Univariate time series: ARMA, unit roots, forecasting | Lambert, FPP (ARIMA & forecasting) |
+| 11 | Thu 11/05 *(one session — no class Tue 11/03, Election Day)* | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
 
-: **Midterm 2** covers ISLR Ch 8–12 + Time Series Ch 14–15.
+: **Midterm 2 — Tue 11/10**, in class. Covers ISLR Ch 8–12 + Time Series Ch 14–15.
+
+**Thu 11/12** is a buffer session: exam return and discussion, plus any material
+the two short weeks left unfinished.
 
 *Optional self-study (not on any exam):* ISLR 11 (Survival Analysis) and ISLR 13
 (Multiple Testing) remain in the notes for interested students.
 
 ## Block III — Causal inference → Final
 
-| Week | Notes | Topic | Video (*The Effect*) |
-|---|---|---|---|
-| 12 | Effect 5–8 + 10 | Identification; causal diagrams (DAGs); drawing diagrams; closing back doors; treatment effects (ATE/ATT/LATE) | Identification → Treatment Effects |
-| 13 | Effect 13 + 14 | Regression *as causal adjustment* (re-frames ISLR 3); matching | Regression, Matching |
-| 14 | Effect 16 + 17 + 18 | Fixed effects; event studies; difference-in-differences | Fixed Effects, Event Studies, DiD |
-| 15 | Effect 19 + 20 | Instrumental variables; regression discontinuity | IV, RDD |
+| Week | Dates | Notes | Topic | Video (*The Effect*) |
+|---|---|---|---|---|
+| 12 | Tue 11/17 · Thu 11/19 | Effect 5–8 + 10 | Identification; causal diagrams (DAGs); drawing diagrams; closing back doors; treatment effects (ATE/ATT/LATE) | Identification → Treatment Effects |
+| 13 | Tue 11/24 *(one session — no class Thu 11/26, Thanksgiving)* | Effect 13 + 14 | Regression *as causal adjustment* (re-frames ISLR 3); matching | Regression, Matching |
+| 14 | Tue 12/01 · Thu 12/03 | Effect 16 + 17 + 18 | Fixed effects; event studies; difference-in-differences | Fixed Effects, Event Studies, DiD |
+| 15 | Tue 12/08 · Thu 12/10 | Effect 19 + 20 | Instrumental variables; regression discontinuity | IV, RDD |
 
-: **Final Exam** covers the causal material from *The Effect* only.
+: **Final Exam** — during the **12/14–12/18** examination period; the exact slot
+comes from the Registrar's final examination schedule and will be posted in
+*Announcements*. Covers the causal material from *The Effect* only.
 
 **How the prediction and causal parts connect.** Week 12 front-loads the
 conceptual design material — identification, causal diagrams, back-door paths,

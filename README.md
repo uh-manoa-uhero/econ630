@@ -13,7 +13,7 @@ announcements all live here.
 
 | | |
 |---|---|
-| **Syllabus** | https://REPLACE-WITH-SUBDOMAIN.pages.github.io/ ([PDF](https://REPLACE-WITH-SUBDOMAIN.pages.github.io/SYLLABUS_ECON630.pdf)) |
+| **Syllabus** | https://uh-manoa-uhero.github.io/econ630/ ([PDF](https://uh-manoa-uhero.github.io/econ630/SYLLABUS_ECON630.pdf)) |
 | **Prediction & time series notes** | https://special-adventure-gw99jmk.pages.github.io/ |
 | **Causal inference notes** | https://fantastic-adventure-v611vgo.pages.github.io/ |
 
@@ -38,10 +38,10 @@ which the whole class can read. See [assignments/README.md](assignments/README.m
 
 ## You need a GitHub account
 
-All three sites above are private to this class. Sign in to GitHub with the
-account you gave me and they open normally; if you are not signed in, or your
-account has not been added yet, you will be redirected to a GitHub login page
-instead of the material.
+The syllabus is public — read it without signing in. **Both lecture-note sites are
+private to this class.** Sign in to GitHub with the account you gave me and they
+open normally; if you are not signed in, or your account has not been added yet,
+you will be redirected to a GitHub login page instead of the notes.
 
 If you have not done this yet: create a free account at
 [github.com](https://github.com/) and email me the username. No institutional

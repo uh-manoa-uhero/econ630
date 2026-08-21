@@ -1,6 +1,8 @@
 # Week 1 — ISLR 1 + 2 — Statistical learning, bias–variance, KNN
 
-**Due Sunday 8:00 pm** · submit one hand-written PDF via GitHub Classroom
+Sessions: **Tue 08/25** (course intro, instructor-led) and **Thu 08/27**.
+
+**Due Sunday 08/30, 8:00 pm** · submit one hand-written PDF via GitHub Classroom
 (see [how to submit](README.md#how-to-submit))
 
 Week 1 also starts the R onboarding. No prior R is assumed — the Ch 2 lab is
