@@ -1,0 +1,54 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask about anything in the course material — a chapter, a lab, an exercise,
+        or something from a class session.
+
+        Before posting, please skim the existing Q&A threads; if your question is
+        already answered, reply there instead so the answer stays in one place.
+        Answering a classmate counts toward participation.
+
+  - type: dropdown
+    id: block
+    attributes:
+      label: Which part of the course?
+      options:
+        - "Block I — Supervised learning (ISLR 1–7)"
+        - "Block II — Advanced ML & time series (ISLR 8–12, Verbeek 14–15)"
+        - "Block III — Causal inference (The Effect)"
+        - "Software / setup (R, Positron, packages)"
+        - "Course logistics"
+    validations:
+      required: true
+
+  - type: input
+    id: reference
+    attributes:
+      label: Chapter, section, or exercise
+      description: Where exactly is this? Helps others find the same spot.
+      placeholder: "e.g. ISLR Ch 6.2, lasso; or Effect Ch 18 exercise 3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: |
+        State what you are trying to understand. If it is about code, paste the
+        code and the full error message rather than describing them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What you have tried or how you are thinking about it
+      description: |
+        Even a wrong guess helps — it tells people where your reasoning diverged,
+        and you will usually get a sharper answer.
+    validations:
+      required: false

@@ -20,6 +20,22 @@ announcements all live here.
 Read the syllabus first — it explains the flipped-classroom format, the weekly
 rhythm, the schedule, and how you are graded.
 
+## In this repository
+
+| | |
+|---|---|
+| [Discussions](../../discussions) | Announcements, Q&A, and presentation sign-ups |
+| [assignments/](assignments/) | Weekly specs and how to submit |
+| [presentations.md](presentations.md) | Who leads which session |
+
+**Announcements** is where schedule changes, exam logistics, and each week's
+homework link are posted — [watch this repository](../../subscription) so they
+reach you by email. Ask course questions in **Q&A** rather than emailing, so the
+whole class sees the answer; answering a classmate counts toward participation.
+
+Homework is submitted privately through GitHub Classroom — never in Discussions,
+which the whole class can read. See [assignments/README.md](assignments/README.md).
+
 ## You need a GitHub account
 
 All three sites above are private to this class. Sign in to GitHub with the
@@ -64,11 +80,17 @@ notes cover that material in full and the lab data is provided.
 
 ```
 .
-├── index.qmd            # Syllabus source (Quarto)
-├── _quarto.yml          # Renders to docs/
-├── publish_site.sh      # Pushes docs/ to gh-pages as a single commit
-├── docs/                # Rendered syllabus (untracked)
-└── README.md            # This page
+├── index.qmd                       # Syllabus source (Quarto)
+├── _quarto.yml                     # Renders to docs/
+├── publish_site.sh                 # Pushes docs/ to gh-pages as a single commit
+├── docs/                           # Rendered syllabus (untracked)
+├── presentations.md                # Session sign-up table
+├── assignments/
+│   ├── README.md                   # What is collected, deadline, how to submit
+│   ├── TEMPLATE.md                 # Blank weekly spec
+│   └── weekNN.md                   # Per-week reading, videos, exercises
+├── .github/DISCUSSION_TEMPLATE/    # Forms for the Announcements and Q&A categories
+└── README.md                       # This page
 ```
 
 ## For the instructor: publishing the syllabus

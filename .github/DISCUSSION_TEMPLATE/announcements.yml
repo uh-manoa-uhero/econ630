@@ -1,0 +1,46 @@
+title: "[Announcement] "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Instructor announcements: schedule changes, exam logistics, corrections to
+        the lecture notes, and anything the whole class must act on.
+
+        Students cannot post here — ask in **Q&A** instead.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - "Schedule change"
+        - "Exam logistics"
+        - "Correction to the lecture notes"
+        - "Assignment or deadline"
+        - "General"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What is changing
+    validations:
+      required: true
+
+  - type: input
+    id: effective
+    attributes:
+      label: Effective date
+      placeholder: "e.g. from the Thu 10/09 session"
+    validations:
+      required: false
+
+  - type: textarea
+    id: action
+    attributes:
+      label: What you need to do
+      description: Leave blank if no action is required.
+    validations:
+      required: false
