@@ -1,0 +1,6 @@
+project:
+  type: default
+  # docs/ is the render target and is gitignored; ./publish_site.sh force-pushes
+  # it to the gh-pages branch, which GitHub Pages serves from / (root). The
+  # syllabus is index.qmd so the site root resolves to the syllabus itself.
+  output-dir: docs

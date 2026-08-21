@@ -1,0 +1,29 @@
+# Rendered output. The syllabus site is published to the gh-pages branch by
+# ./publish_site.sh, so main carries sources only. `date: last-modified` restamps
+# the document on every render and the HTML is self-contained (~1.9 MB), so
+# committing docs/ would add a fresh copy to history each time.
+/docs/
+
+# Stale top-level renders from before the output moved into docs/. Safe to delete.
+/SYLLABUS_ECON630.html
+/SYLLABUS_ECON630.pdf
+
+# Quarto internal working directory, rebuilt on every render.
+/.quarto/
+**/*.quarto_ipynb
+
+# LaTeX intermediates
+*.aux
+*.log
+*.out
+*.toc
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj.user/
+
+# macOS
+.DS_Store
