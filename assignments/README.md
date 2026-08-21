@@ -70,16 +70,26 @@ a complete submission.
 If you upload the wrong file, upload a corrected one before the deadline. I grade
 the most recent version in place at the deadline.
 
-## Weekly specs
+## Which chapter, which exercises
 
-Each week's assignment has a page in this directory listing the reading, the
-videos, and exactly which conceptual exercises to write up:
+There is no separate hand-out each week — the assignment is the same every week,
+and the schedule in the
+[syllabus](https://uh-manoa-uhero.github.io/econ630/) says which chapter it applies
+to. Look up the week, read across:
 
-- [Week 1 — ISLR 1 + 2](week01.md)
+- the **Notes** column gives the chapter — ISLR 6, Verbeek 14, Effect 13 + 14, and
+  so on
+- the **Video** column gives the lecture(s) to watch
+- write up the **conceptual** exercises from that chapter (in ISLR these are the
+  ones printed under *Conceptual*, before the *Applied* set)
 
-Later weeks are added as the semester progresses. [TEMPLATE.md](TEMPLATE.md) is
-the blank form they are built from, and [hw-repo-README.md](hw-repo-README.md) is
-the text that appears in each student's own repository.
+For the weeks that cover two or three chapters, do the conceptual exercises from
+each of them.
+
+## Week 1 is the exception
+
+Week 1's material is introduced in class rather than prepared beforehand, so it has
+no write-up. Your first submission is `week02.pdf`, due **Sun 08/30**.
 
 ## Privacy
 

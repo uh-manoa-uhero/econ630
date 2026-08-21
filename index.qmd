@@ -41,7 +41,7 @@ hunt for anything.
 | **Course repository** | [uh-manoa-uhero/econ630](https://github.com/uh-manoa-uhero/econ630) — the hub |
 | **Prediction & time series notes** | [ISLR Ch 1–13, Verbeek 14–15](https://special-adventure-gw99jmk.pages.github.io/) |
 | **Causal inference notes** | [*The Effect*](https://fantastic-adventure-v611vgo.pages.github.io/) |
-| **Weekly assignments** | [reading, videos, exercises, deadline table](https://github.com/uh-manoa-uhero/econ630/tree/main/assignments) |
+| **The weekly write-up** | [what to submit, deadlines, how](https://github.com/uh-manoa-uhero/econ630/blob/main/assignments/README.md) |
 | **Presentation sign-ups** | [schedule and slots](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md) |
 | **Announcements** | [schedule changes, exam logistics](https://github.com/uh-manoa-uhero/econ630/discussions/categories/announcements) |
 | **Q&A** | [ask about the material](https://github.com/uh-manoa-uhero/econ630/discussions/categories/q-a) |
@@ -311,6 +311,10 @@ machinery from ISLR Ch 3, not from scratch.
 solutions to the conceptual exercises, due by **8 pm on the Sunday before that
 week's sessions** — see *How each week works*. Weeks 2–15, so 14 submissions;
 Week 1's material is introduced in class and has no write-up.
+
+The assignment is the same every week; there is no separate hand-out. The
+*Schedule* above says which chapter each week covers, and you write up the
+conceptual exercises from it.
 Write the work out by hand, then scan it (or photograph it) and submit it as a
 single PDF. Writing by hand aids retention and confirms steady weekly
 engagement. The coding and applied exercises are self-checked against the

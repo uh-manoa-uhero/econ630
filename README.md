@@ -26,7 +26,7 @@ rhythm, the schedule, and how you are graded.
 | | |
 |---|---|
 | [Discussions](../../discussions) | Announcements, Q&A, and presentation sign-ups |
-| [assignments/](assignments/) | Weekly specs and how to submit |
+| [assignments/](assignments/) | What the weekly write-up is, deadlines, how to submit |
 | [presentations.md](presentations.md) | Who leads which session |
 
 **Announcements** is where schedule changes, exam logistics, and corrections to
@@ -94,9 +94,7 @@ notes cover that material in full and the lab data is provided.
 ├── presentations.md                # Session schedule, sign-ups, thread seed text
 ├── docs/                           # Rendered syllabus (untracked; published to gh-pages)
 ├── assignments/
-│   ├── README.md                   # What is collected, deadlines, how to submit
-│   ├── weekNN.md                   # Per-week reading, videos, exercises
-│   ├── TEMPLATE.md                 # Blank weekly spec
+│   ├── README.md                   # The weekly write-up: what, when, how to submit
 │   └── hw-repo-README.md           # Text seeded into each student's homework repo
 ├── scripts/
 │   ├── publish_site.sh             # Pushes docs/ to gh-pages as a single commit

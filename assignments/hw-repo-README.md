@@ -36,9 +36,10 @@ and I grade the most recent version in place at that time.
 Deadlines, what each week's write-up must contain, and the late policy are in the
 course repository:
 
-- **[Deadline table and submission rules](https://github.com/uh-manoa-uhero/econ630/blob/main/assignments/README.md)**
-- **[This week's spec](https://github.com/uh-manoa-uhero/econ630/tree/main/assignments)**
-  — reading, videos, and which conceptual exercises to write up
+- **[The weekly write-up: what, when, and how](https://github.com/uh-manoa-uhero/econ630/blob/main/assignments/README.md)**
+  — including the deadline table
+- **[Syllabus schedule](https://uh-manoa-uhero.github.io/econ630/)** — which chapter
+  and videos each week covers
 
 In short: due **8 pm on the Sunday before** that week's sessions, hand-written,
 one PDF. GitHub timestamps every upload.
