@@ -47,9 +47,8 @@ the reverse of the usual order.
 | 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | |
 | 9 | ISLR 10 — deep learning | 10/20 | | 10/22 | |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | | 10/29 | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/05 *(lecture)* | | 11/10 *(discussion)* | |
-
-*Midterm 2 — Thu 11/12.*
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 *(lecture)* | |
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 *(discussion)* | | - | *Midterm 2, Thu 11/12* |
 
 ### Block III — Causal inference → Final
 
@@ -63,9 +62,9 @@ the reverse of the usual order.
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
 Registrar's final examination schedule.*
 
-**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/12),
-leaves 28 teaching sessions. I take Week 1 Tuesday, so there are **27 student-led
-slots**.
+**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/12), and 
+the two holidays (11/03, 11/26) leaves 26 teaching sessions. I take Week 1 
+Tuesday, so there are **25 student-led slots**.
 
 ## What leading a session involves
 
