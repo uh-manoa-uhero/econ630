@@ -34,7 +34,7 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | | 09/10 | |
 | 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | | 09/17 | |
 | 5 | ISLR 6 — model selection & regularization | 09/22 | | 09/24 | |
-| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | | — | *Midterm 1, Thu 10/01* |
+| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | | *10/01* | *Midterm 1* |
 
 ### Block II — Advanced ML & time series → Midterm 2
 
@@ -44,15 +44,15 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | |
 | 9 | ISLR 10 — deep learning | 10/20 | | 10/22 | |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | | 10/29 | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 | |
-| 12 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 | | - | *Midterm 2, Thu 11/12* |
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *11/03* | --- | 11/05 | |
+| 12 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 | | *11/12* | *Midterm 2* |
 
 ### Block III — Causal inference → Final
 
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
 | 13 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
-| 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *no class 11/26* | |
+| 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *11/26* | --- |
 | 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | |
 | 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
 
