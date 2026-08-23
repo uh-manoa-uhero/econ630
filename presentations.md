@@ -2,9 +2,8 @@
 
 Each week's topic spans both sessions. The **Tuesday** session is a student-led
 lecture of at least 30 minutes on the assigned chapter plus opening discussion;
-the **Thursday** session
-continues the discussion, works through the labs and exercises, and answers
-questions. Both slots are student-led.
+the **Thursday** session continues the discussion, works through the labs and 
+exercises, and answers questions. Both slots are student-led.
 
 There are more sessions than students enrolled, so everyone leads more than once.
 
@@ -23,10 +22,8 @@ week until everyone has at least one.
 
 Dates are from the [UH Mānoa Fall 2026 academic calendar](https://manoa.hawaii.edu/registrar/academic-calendar/fall-2026/).
 Instruction runs 08/25–12/10; **no class Tue 11/03 (Election Day) or Thu 11/26
-(Thanksgiving)**. Weeks 6 and 13 therefore have one session, not two — so they
-have one slot to claim, not two. Week 11 keeps both sessions, but they straddle a
-weekend: **Thu 11/05** is the lecture slot and **Tue 11/10** the discussion slot,
-the reverse of the usual order.
+(Thanksgiving)**. Weeks 6, 11, 12 and 14 have one session, not two. Coverage of
+the material and split of lecture/discussion/labs can be adjusted in these cases.
 
 ### Block I — Supervised learning → Midterm 1
 
@@ -47,30 +44,29 @@ the reverse of the usual order.
 | 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | |
 | 9 | ISLR 10 — deep learning | 10/20 | | 10/22 | |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | | 10/29 | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 *(lecture)* | |
-| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 *(discussion)* | | - | *Midterm 2, Thu 11/12* |
+| 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *no class 11/03* | | 11/05 | |
+| 12 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 | | - | *Midterm 2, Thu 11/12* |
 
 ### Block III — Causal inference → Final
 
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
-| 12 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
-| 13 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *no class 11/26* | |
-| 14 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | |
-| 15 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
+| 13 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
+| 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *no class 11/26* | |
+| 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | |
+| 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
 
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
 Registrar's final examination schedule.*
 
-**Slot arithmetic:** 30 meetings, less the two in-class exams (10/01, 11/12), and 
-the two holidays (11/03, 11/26) leaves 26 teaching sessions. I take Week 1 
-Tuesday, so there are **25 student-led slots**.
+**Slot arithmetic:** 16 weeks = 32 potential meetings, less the two in-class 
+exams (10/01, 11/12), and the two holidays (11/03, 11/26) leaves 28 teaching 
+sessions. I take Week 1 Tuesday, so there are **27 student-led slots**.
 
 ## What leading a session involves
 
 Prepare and deliver a lecture of **at least 30 minutes** on the topic, using the
-textbook chapter, the
-videos, and the [lecture notes](README.md#start-here) as source material, then
+textbook chapter, the videos, and the [lecture notes](README.md#start-here) as source material, then
 guide the discussion that follows. You are not expected to cover everything — pick
 the ideas that matter most and the ones you found hardest, and be ready to field
 questions.
@@ -104,8 +100,7 @@ this:
 4. Week 7, either
 ```
 
-The topics and slots are listed in
-[presentations.md](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md).
+The topics and slots are listed in [presentations.md](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md).
 Have a look before you reply — pick weeks whose material you actually want to dig
 into, since you will be living with that chapter for a while.
 
@@ -117,17 +112,15 @@ a second slot until everyone has a first. There are more sessions than students,
 so everyone leads more than once.
 
 **Where the result lives:**
-[presentations.md](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md)
-is the authoritative schedule. I fill in the presenter columns there and push the
+[presentations.md](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md) is the authoritative schedule. I fill in the presenter columns there and push the
 update; I will not be editing this thread to track assignments. Check that file,
 not this thread, to confirm what you are leading and when.
 
 **What leading a session involves:** a lecture of **at least 30 minutes** on the
-topic — using the
-textbook chapter, the videos, and the lecture notes as source material — followed
-by discussion that you guide. You are not expected to cover everything; pick the
-ideas that matter most and the ones you found hardest. See *Assessment* in the
-[syllabus](https://github.com/uh-manoa-uhero/econ630#start-here) for how this is
+topic — using the textbook chapter, the videos, and the lecture notes as source 
+material — followed by discussion that you guide. You are not expected to cover 
+everything; pick the ideas that matter most and the ones you found hardest. See 
+*Assessment* in the [syllabus](https://github.com/uh-manoa-uhero/econ630#start-here) for how this is
 graded.
 
 Questions about the material go in **Q&A**, not here. Keep this thread to sign-ups
