@@ -55,10 +55,10 @@ the reverse of the usual order.
 
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
-| 12 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | | 11/19 | |
-| 13 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | | *no class 11/26* | |
-| 14 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | | 12/03 | |
-| 15 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | | 12/10 | |
+| 12 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
+| 13 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *no class 11/26* | |
+| 14 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | |
+| 15 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
 
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
 Registrar's final examination schedule.*
