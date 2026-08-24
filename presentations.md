@@ -53,7 +53,7 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 |---|---|---|---|---|---|
 | 13 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
 | 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *11/26* | --- |
-| 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | |
+| 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | (Vanessa) |
 | 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
 
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
