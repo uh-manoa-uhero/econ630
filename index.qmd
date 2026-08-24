@@ -334,7 +334,7 @@ GitHub records the moment of every upload, and that record is what I grade
 against. Full instructions live in `assignments/README.md` in the course
 repository.
 
-**Presentation & participation (30%).** Each student signs up to lead
+**Presentation & participation (30%).** Each student [signs up](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md) to lead
 multiple class sessions over the semester — there are more class sessions
 than students enrolled, so everyone leads more than one. When leading a
 session, prepare and deliver a lecture of **at least 30 minutes** on that day's topic (using the
