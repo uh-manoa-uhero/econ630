@@ -218,7 +218,7 @@ flipped format work: class time is for discussion, not first exposure.
 
 Week 1 is the exception. Its material is introduced in class, so there is no
 submission for it; the first deadline is **Sun 08/30**, covering Week 2. That
-gives **14 graded submissions** over the semester.
+gives **15 graded submissions** over the semester.
 
 The hand-written submission (step 6) is collected; the labs and coding
 exercises in steps 4–5 are self-check practice, but are also analyzed and
@@ -240,10 +240,12 @@ independent of who presents them.
 
 **No class on Tue 11/03 (Election Day) or Thu 11/26 (Thanksgiving)** — both are
 University non-instructional days. That leaves 30 meetings between the first
-session on 08/25 and the last on 12/10, so two weeks run as a single session:
-Week 6, shortened to make room for Midterm 1, and Week 13, shortened by
-Thanksgiving. Week 11 keeps both of its sessions, but they straddle a weekend
-(Thu 11/05 and Tue 11/10) because Election Day removes its Tuesday.
+session on 08/25 and the last on 12/10, so three weeks run as a single
+session: Week 6, shortened to make room for Midterm 1; Week 11, shortened by
+Election Day; and Week 14, shortened by Thanksgiving. Multivariate time
+series (Verbeek 15) now spans two weeks (11–12) instead of being compressed
+into one, so the session right before Midterm 2 is genuine review, not first
+contact with the densest material in the block.
 
 ## Block I — Supervised learning → Midterm 1
 
@@ -266,14 +268,10 @@ Thanksgiving. Week 11 keeps both of its sessions, but they straddle a weekend
 | 8 | Tue 10/13 · Thu 10/15 | ISLR 9 + 12 | Support vector machines; unsupervised learning (PCA, *k*-means, hierarchical) | StatLearning Ch 9, 12 |
 | 9 | Tue 10/20 · Thu 10/22 | ISLR 10 | Deep learning: feed-forward nets, CNNs, RNNs | StatLearning Ch 10 |
 | 10 | Tue 10/27 · Thu 10/29 | Verbeek 14 | Univariate time series: ARMA, unit roots, forecasting | Lambert, FPP (ARIMA & forecasting) |
-| 11 | Thu 11/05 · Tue 11/10 *(no class Tue 11/03, Election Day)* | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
+| 11 | Thu 11/05 *(one session — no class Tue 11/03, Election Day)* | Verbeek 15 | Multivariate time series: VAR, Granger causality, IRFs, cointegration, VECM | Lambert (VAR & cointegration) |
+| 12 | Tue 11/10 *(one session)* | Verbeek 15 (continued) | Multivariate time series, continued | Lambert (VAR & cointegration) |
 
 : **Midterm 2 — Thu 11/12**, in class. Covers ISLR Ch 8–12 + Time Series Ch 14–15.
-
-Note the compressed run-up: Week 11's second session is **Tue 11/10**, two days
-before the exam. Multivariate time series is the densest material in the block, so
-do not leave it until the last week — the weekly rhythm exists precisely so that
-exam preparation is review rather than first contact.
 
 *Optional self-study (not on any exam):* ISLR 11 (Survival Analysis) and ISLR 13
 (Multiple Testing) remain in the notes for interested students.
@@ -282,16 +280,16 @@ exam preparation is review rather than first contact.
 
 | Week | Dates | Notes | Topic | Video (*The Effect*) |
 |---|---|---|---|---|
-| 12 | Tue 11/17 · Thu 11/19 | Effect 5–8 + 10 | Identification; causal diagrams (DAGs); drawing diagrams; closing back doors; treatment effects (ATE/ATT/LATE) | Identification → Treatment Effects |
-| 13 | Tue 11/24 *(one session — no class Thu 11/26, Thanksgiving)* | Effect 13 + 14 | Regression *as causal adjustment* (re-frames ISLR 3); matching | Regression, Matching |
-| 14 | Tue 12/01 · Thu 12/03 | Effect 16 + 17 + 18 | Fixed effects; event studies; difference-in-differences | Fixed Effects, Event Studies, DiD |
-| 15 | Tue 12/08 · Thu 12/10 | Effect 19 + 20 | Instrumental variables; regression discontinuity | IV, RDD |
+| 13 | Tue 11/17 · Thu 11/19 | Effect 5–8 + 10 | Identification; causal diagrams (DAGs); drawing diagrams; closing back doors; treatment effects (ATE/ATT/LATE) | Identification → Treatment Effects |
+| 14 | Tue 11/24 *(one session — no class Thu 11/26, Thanksgiving)* | Effect 13 + 14 | Regression *as causal adjustment* (re-frames ISLR 3); matching | Regression, Matching |
+| 15 | Tue 12/01 · Thu 12/03 | Effect 16 + 17 + 18 | Fixed effects; event studies; difference-in-differences | Fixed Effects, Event Studies, DiD |
+| 16 | Tue 12/08 · Thu 12/10 | Effect 19 + 20 | Instrumental variables; regression discontinuity | IV, RDD |
 
 : **Final Exam** — during the **12/14–12/18** examination period; the exact slot
 comes from the Registrar's final examination schedule and will be posted in
 *Announcements*. Covers the causal material from *The Effect* only.
 
-**How the prediction and causal parts connect.** Week 12 front-loads the
+**How the prediction and causal parts connect.** Week 13 front-loads the
 conceptual design material — identification, causal diagrams, back-door paths,
 and the definitions of treatment effects — so that Weeks 13–15 are pure method.
 Effect Ch 13 (regression) is taught as a *causal re-interpretation* of the OLS
@@ -301,7 +299,7 @@ machinery from ISLR Ch 3, not from scratch.
 
 | Component | When | Coverage | Weight |
 |---|---|---|---|
-| Weekly homework | Sundays, 8 pm | Hand-written; Weeks 2–15 (14 submissions) | 10% |
+| Weekly homework | Sundays, 8 pm | Hand-written; Weeks 2–16 (15 submissions) | 10% |
 | Presentation & participation | Throughout | Leading assigned sessions; discussion engagement | 30% |
 | Midterm 1 | **Thu 10/01**, in class | ISLR Ch 1–7 | 20% |
 | Midterm 2 | **Thu 11/12**, in class | ISLR Ch 8–12 + Time Series Ch 14–15 | 20% |
@@ -309,7 +307,7 @@ machinery from ISLR Ch 3, not from scratch.
 
 **Homework (10%).** A hand-written summary of the week's study material and your
 solutions to the conceptual exercises, due by **8 pm on the Sunday before that
-week's sessions** — see *How each week works*. Weeks 2–15, so 14 submissions;
+week's sessions** — see *How each week works*. Weeks 2–16, so 15 submissions;
 Week 1's material is introduced in class and has no write-up.
 
 The assignment is the same every week; there is no separate hand-out. The
