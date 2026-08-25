@@ -30,8 +30,8 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
 | 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | 08/25 | *instructor* | 08/27 | Albert? Kyle? Mustafa? |
-| 2 | ISLR 3 — linear regression | 09/01 | Marzuka? Samichchha? | 09/03 | Vanessa |
-| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Michelle? | 09/10 | |
+| 2 | ISLR 3 — linear regression | 09/01 | Michelle | 09/03 | Vanessa |
+| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Marzuka? Samichchha? | 09/10 | |
 | 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | | 09/17 | |
 | 5 | ISLR 6 — model selection & regularization | 09/22 | | 09/24 | |
 | 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | Hao | *10/01* | *Midterm 1* |
@@ -52,8 +52,8 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
 | 13 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
-| 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) | *11/26* | --- |
-| 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | (Vanessa) |
+| 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | (Rei) (Michelle) | *11/26* | --- |
+| 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | (Daewon) | 12/03 | (Vanessa) (Michelle) |
 | 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
 
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
