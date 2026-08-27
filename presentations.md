@@ -29,7 +29,7 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
-| 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | 08/25 | *instructor* | 08/27 | Albert? Kyle? Mustafa? |
+| 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | 08/25 | *instructor* | 08/27 | Albert |
 | 2 | ISLR 3 — linear regression | 09/01 | Michelle | 09/03 | Vanessa |
 | 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Marzuka? Samichchha? | 09/10 | |
 | 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | Rei | 09/17 | Michelle |
