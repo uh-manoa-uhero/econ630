@@ -31,7 +31,7 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 |---|---|---|---|---|---|
 | 1 | ISLR 1 + 2 — statistical learning, bias–variance, KNN; R onboarding | 08/25 | *instructor* | 08/27 | Albert |
 | 2 | ISLR 3 — linear regression | 09/01 | Michelle | 09/03 | Vanessa |
-| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Marzuka? Samichchha? | 09/10 | |
+| 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Hao | 09/10 | Marzuka |
 | 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | Rei | 09/17 | Michelle |
 | 5 | ISLR 6 — model selection & regularization | 09/22 | Vanessa | 09/24 | Daewon |
 | 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | Hao | *10/01* | *Midterm 1* |
@@ -41,8 +41,8 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
 | 7 | ISLR 8 — trees, random forests, boosting, BART | 10/06 | Tim | 10/08 | Vanessa |
-| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | | 10/15 | Daewon |
-| 9 | ISLR 10 — deep learning | 10/20 | (Hao) | 10/22 | (Rei) (Hao) |
+| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | (Hao) (Marzuka) | 10/15 | Daewon |
+| 9 | ISLR 10 — deep learning | 10/20 | Hao | 10/22 | Hao |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | Vanessa | 10/29 | Michelle |
 | 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *11/03* | --- | 11/05 | (Tim) |
 | 12 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | 11/10 | (Tim) | *11/12* | *Midterm 2* |
@@ -54,7 +54,7 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | 13 | Effect 5–8 + 10 — identification, DAGs, back doors, treatment effects | 11/17 | Daewon | 11/19 | Rei |
 | 14 | Effect 13 + 14 — regression as causal adjustment; matching | 11/24 | Rei | *11/26* | --- |
 | 15 | Effect 16 + 17 + 18 — fixed effects; event studies; DiD | 12/01 | Daewon | 12/03 | Michelle |
-| 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) |
+| 16 | Effect 19 + 20 — instrumental variables; regression discontinuity | 12/08 | Hamid | 12/10 | (Hamid) (Marzuka) |
 
 *Final Exam — during the 12/14–12/18 examination period; slot TBA from the
 Registrar's final examination schedule.*
