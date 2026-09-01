@@ -34,14 +34,14 @@ the material and split of lecture/discussion/labs can be adjusted in these cases
 | 3 | ISLR 4 — classification: logistic, LDA/QDA, naive Bayes | 09/08 | Hao | 09/10 | Marzuka |
 | 4 | ISLR 5 — resampling: cross-validation & the bootstrap | 09/15 | Rei | 09/17 | Michelle |
 | 5 | ISLR 6 — model selection & regularization | 09/22 | Vanessa | 09/24 | Daewon |
-| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | Hao | *10/01* | *Midterm 1* |
+| 6 | ISLR 7 — beyond linearity: polynomials, splines, GAMs | 09/29 | Albert | *10/01* | *Midterm 1* |
 
 ### Block II — Advanced ML & time series → Midterm 2
 
 | Week | Topic | Tue | presenter | Thu | presenter |
 |---|---|---|---|---|---|
 | 7 | ISLR 8 — trees, random forests, boosting, BART | 10/06 | Tim | 10/08 | Vanessa |
-| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | (Hao) (Marzuka) | 10/15 | Daewon |
+| 8 | ISLR 9 + 12 — SVMs; unsupervised learning | 10/13 | Marzuka | 10/15 | Daewon |
 | 9 | ISLR 10 — deep learning | 10/20 | Hao | 10/22 | Hao |
 | 10 | Verbeek 14 — univariate time series: ARMA, unit roots | 10/27 | Vanessa | 10/29 | Michelle |
 | 11 | Verbeek 15 — multivariate time series: VAR, cointegration, VECM | *11/03* | --- | 11/05 | (Tim) |
