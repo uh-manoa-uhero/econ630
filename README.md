@@ -25,7 +25,7 @@ rhythm, the schedule, and how you are graded.
 
 | | |
 |---|---|
-| [Discussions](../../discussions) | Announcements, Q&A, and presentation sign-ups |
+| [Discussions](../../discussions) | Announcements, Q&A, presentation sign-ups, exam questions |
 | [assignments/](assignments/) | What the weekly write-up is, deadlines, how to submit |
 | [presentations.md](presentations.md) | Who leads which session |
 
@@ -33,6 +33,12 @@ rhythm, the schedule, and how you are graded.
 the notes are posted — [watch this repository](../../subscription) so they reach
 you by email. Ask course questions in **Q&A** rather than emailing, so the whole
 class sees the answer; answering a classmate counts toward participation.
+
+**Exam questions** holds one thread per class session. Within a week of leading a
+session you post five proposed exam questions in that session's thread — one
+question per comment — and everyone upvotes the ones they want to see. The pinned
+*How the exam question pool works* thread has the format; the syllabus explains
+how much of an exam comes from the pool.
 
 Homework goes to **your own private repository**, `econ630-f26-hw-<your-username>`,
 which I create and invite you to — never in Discussions, which the whole class can

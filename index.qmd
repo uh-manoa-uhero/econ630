@@ -43,6 +43,7 @@ hunt for anything.
 | **Causal inference notes** | [*The Effect*](https://fantastic-adventure-v611vgo.pages.github.io/) |
 | **The weekly write-up** | [what to submit, deadlines, how](https://github.com/uh-manoa-uhero/econ630/blob/main/assignments/README.md) |
 | **Presentation sign-ups** | [schedule and slots](https://github.com/uh-manoa-uhero/econ630/blob/main/presentations.md) |
+| **Exam question pool** | [propose and upvote exam questions](https://github.com/uh-manoa-uhero/econ630/discussions/categories/exam-questions) |
 | **Announcements** | [schedule changes, exam logistics](https://github.com/uh-manoa-uhero/econ630/discussions/categories/announcements) |
 | **Q&A** | [ask about the material](https://github.com/uh-manoa-uhero/econ630/discussions/categories/q-a) |
 | **Your homework repository** | `econ630-f26-hw-<your-username>` — I create it and invite you |
@@ -338,14 +339,26 @@ than students enrolled, so everyone leads more than one. When leading a
 session, prepare and deliver a lecture of **at least 30 minutes** on that day's topic (using the
 reading, videos, and lecture notes as source material), then guide the
 discussion that follows; the instructor's role is to facilitate, not to
-lecture. Grading considers preparation, clarity of the lecture, and the
-quality of the discussion you draw out of your classmates. The remainder of
+lecture. Within a week of leading, you also post **five proposed exam questions**
+in your session's thread in the **Exam questions** discussion category — one
+question per comment, each with a short answer key. Grading considers preparation,
+clarity of the lecture, the quality of the discussion you draw out of your
+classmates, and the questions you contribute. The remainder of
 the grade reflects active participation in every other session — asking
 questions and engaging with the presenter's material.
 
 **Exams (20% each).** Each exam is **closed-book, closed-notes, and
 timed**, held in the classroom and proctored by the instructor. Exams combine
 conceptual short-answer items with applied "interpret-this-output" questions.
+
+**Where the questions come from.** Part of each exam is drawn from the class
+question pool: after leading a session you post five candidate questions in the
+**Exam questions** discussion category, and everyone upvotes the questions they
+want to see. Upvoting stays open until the exam is distributed. I read the whole
+pool for the block before writing the exam, and upvotes tell me what the class
+considers fair and central — but the exam is composed of the questions **I**
+choose, some from the pool, some reworked, some my own. A well-upvoted question is
+not a guarantee, and the pool never narrows the coverage listed above.
 
 The two midterms are given during a regular class session — **Thu 10/01** and
 **Thu 11/12** — so they take the usual 75 minutes. The **Final** is scheduled in
@@ -377,7 +390,7 @@ None.
 ## Communications
 
 Course announcements and Q&A go through **GitHub Discussions** in the course
-repository (linked under *Course links*), using three categories:
+repository (linked under *Course links*), using four categories:
 
 - **Announcements** — schedule changes, exam logistics, and corrections to the
   lecture notes. Instructor-posted. **Watch the repository** — *Watch → Custom →
@@ -390,6 +403,9 @@ repository (linked under *Course links*), using three categories:
 - **Presentation sign-ups** — one pinned thread where you claim the sessions you
   will lead. The resulting schedule is kept in `presentations.md` in the
   repository.
+- **Exam questions** — one thread per class session, where the student who led
+  that session posts five questions for the exam pool and the rest of the class
+  upvotes the ones they want to see. See *Exams* under *Assessment*.
 
 Everything in Discussions is visible to the whole class, so do not post graded
 work there — homework is submitted privately (see *Assessment*).
