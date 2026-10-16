@@ -61,13 +61,13 @@ II|10|Tue 10/27|Verbeek 14 -- univariate time series: ARMA, unit roots|Vanessa
 II|10|Thu 10/29|Verbeek 14 -- univariate time series: ARMA, unit roots|Michelle
 II|11|Thu 11/05|Verbeek 15 -- VAR, cointegration, VECM|Tim
 II|12|Tue 11/10|Verbeek 15 -- VAR, cointegration, VECM|Tim
-III|13|Tue 11/17|Effect 5-8 + 10 -- identification, DAGs, back doors, treatment effects|Daewon
+III|13|Tue 11/17|Effect 5-8 + 10 -- identification, DAGs, back doors, treatment effects|Hamid
 III|13|Thu 11/19|Effect 5-8 + 10 -- identification, DAGs, back doors, treatment effects|Rei
 III|14|Tue 11/24|Effect 13 + 14 -- regression as causal adjustment; matching|Rei
 III|15|Tue 12/01|Effect 16 + 17 + 18 -- fixed effects; event studies; DiD|Daewon
 III|15|Thu 12/03|Effect 16 + 17 + 18 -- fixed effects; event studies; DiD|Michelle
-III|16|Tue 12/08|Effect 19 + 20 -- instrumental variables; regression discontinuity|Hamid
-III|16|Thu 12/10|Effect 19 + 20 -- instrumental variables; regression discontinuity|Hamid and Marzuka
+III|16|Tue 12/08|Effect 19 + 20 -- instrumental variables; regression discontinuity|Marzuka
+III|16|Thu 12/10|Effect 19 + 20 -- instrumental variables; regression discontinuity|Hamid
 EOF
 )
 
@@ -159,14 +159,20 @@ for n in nodes:
     if n["category"]["slug"] == slug:
         print(n["title"])')
 
+# A thread counts as posted if its exact title exists, or if any thread in the
+# category carries the same exam tag and session date -- students sometimes open
+# their own session's thread with a slightly different title.
 already_posted() {
-  printf '%s\n' "$existing" | grep -Fxq "$1"
+  local title=$1 tag=$2 date=$3
+  printf '%s\n' "$existing" | grep -Fxq "$title" && return 0
+  [ -n "$tag" ] || return 1
+  printf '%s\n' "$existing" | grep -F "$tag" | grep -Fq "$date"
 }
 
 create_discussion() {
-  local title=$1 body=$2 pin=${3:-false}
+  local title=$1 body=$2 pin=${3:-false} tag=${4:-} date=${5:-}
 
-  if already_posted "$title"; then
+  if already_posted "$title" "$tag" "$date"; then
     echo "  exists, skipped: $title"
     return
   fi
@@ -290,5 +296,6 @@ printf '%s\n' "$SESSIONS" | while IFS='|' read -r block week date topic leader; 
     continue
   fi
   title="[$(exam_name "$block")] Week $week, $date -- ${topic%% --*} -- $leader"
-  create_discussion "$title" "$(session_body "$leader" "$block" "$topic")"
+  create_discussion "$title" "$(session_body "$leader" "$block" "$topic")" false \
+    "[$(exam_name "$block")]" "${date#* }"
 done
